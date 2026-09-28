@@ -1,0 +1,1890 @@
+{
+  "completed_at_utc": "2026-09-28T19:32:10.656657+00:00",
+  "all_cases_complete": true,
+  "cases": [
+    {
+      "case_id": "A002_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 112.13756983308122
+    },
+    {
+      "case_id": "A004_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 112.28660366602708
+    },
+    {
+      "case_id": "A003_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 112.85140516702086
+    },
+    {
+      "case_id": "A006_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 113.11143224989064
+    },
+    {
+      "case_id": "A005_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 113.45710224995855
+    },
+    {
+      "case_id": "A001_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 114.05481337499805
+    },
+    {
+      "case_id": "A008_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 123.04375841701403
+    },
+    {
+      "case_id": "A010_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 124.03341404092498
+    },
+    {
+      "case_id": "A009_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 124.36855841591023
+    },
+    {
+      "case_id": "A014_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 125.36269808397628
+    },
+    {
+      "case_id": "A007_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 127.1796964170644
+    },
+    {
+      "case_id": "A015_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 127.33462383307051
+    },
+    {
+      "case_id": "A018_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 166.23352783394512
+    },
+    {
+      "case_id": "A023_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 165.22254779201467
+    },
+    {
+      "case_id": "A029_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 166.82296683301684
+    },
+    {
+      "case_id": "A030_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 166.6844740830129
+    },
+    {
+      "case_id": "A035_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 167.9408468749607
+    },
+    {
+      "case_id": "A019_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 180.0813954169862
+    },
+    {
+      "case_id": "A036_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 258.6548874169821
+    },
+    {
+      "case_id": "A037_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 260.54510433296673
+    },
+    {
+      "case_id": "A041_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 257.24526237498503
+    },
+    {
+      "case_id": "A039_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 259.5729287500726
+    },
+    {
+      "case_id": "A042_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 258.1987984579755
+    },
+    {
+      "case_id": "A043_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 258.2824955000542
+    },
+    {
+      "case_id": "A049_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 229.6953152079368
+    },
+    {
+      "case_id": "A053_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 231.37015295901801
+    },
+    {
+      "case_id": "A051_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 232.8692796670366
+    },
+    {
+      "case_id": "A054_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 230.85293645900674
+    },
+    {
+      "case_id": "A056_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 232.3279080420034
+    },
+    {
+      "case_id": "A059_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 225.6982997909654
+    },
+    {
+      "case_id": "A061_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 155.487583042006
+    },
+    {
+      "case_id": "A065_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 155.6573948339792
+    },
+    {
+      "case_id": "A064_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 157.11067674995866
+    },
+    {
+      "case_id": "A066_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 155.62553049996495
+    },
+    {
+      "case_id": "A068_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 158.3260594169842
+    },
+    {
+      "case_id": "A069_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 158.50577004102524
+    },
+    {
+      "case_id": "A070_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 177.16445570799988
+    },
+    {
+      "case_id": "A075_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 174.79334420897067
+    },
+    {
+      "case_id": "A071_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 176.40344358305447
+    },
+    {
+      "case_id": "A073_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 179.48275095794816
+    },
+    {
+      "case_id": "A077_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 174.81117866700515
+    },
+    {
+      "case_id": "A081_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 184.5159439590061
+    },
+    {
+      "case_id": "A084_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 146.817836540984
+    },
+    {
+      "case_id": "A087_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 147.14396887505427
+    },
+    {
+      "case_id": "A094_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.25997837504838
+    },
+    {
+      "case_id": "A095_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.88329483300913
+    },
+    {
+      "case_id": "A088_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 149.02161758299917
+    },
+    {
+      "case_id": "A096_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.10318370803725
+    },
+    {
+      "case_id": "A098_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.90593591693323
+    },
+    {
+      "case_id": "A107_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.04400379105937
+    },
+    {
+      "case_id": "A099_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.38905137509573
+    },
+    {
+      "case_id": "A105_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.19181995897088
+    },
+    {
+      "case_id": "A108_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.68702079099603
+    },
+    {
+      "case_id": "A110_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.2117414160166
+    },
+    {
+      "case_id": "A112_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.24363241705578
+    },
+    {
+      "case_id": "A118_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.45084195805248
+    },
+    {
+      "case_id": "A119_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.7790148750646
+    },
+    {
+      "case_id": "A122_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.6772056670161
+    },
+    {
+      "case_id": "A123_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.6850892920047
+    },
+    {
+      "case_id": "A125_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.57818850001786
+    },
+    {
+      "case_id": "A126_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.53206908307038
+    },
+    {
+      "case_id": "A127_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.0408110419521
+    },
+    {
+      "case_id": "A129_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.3780131660169
+    },
+    {
+      "case_id": "A133_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.5703852919396
+    },
+    {
+      "case_id": "A137_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.11072612495627
+    },
+    {
+      "case_id": "A140_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.32012404198758
+    },
+    {
+      "case_id": "A145_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.521765875048
+    },
+    {
+      "case_id": "A148_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.97559516702313
+    },
+    {
+      "case_id": "A151_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.47937812493183
+    },
+    {
+      "case_id": "A154_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 135.80199758301023
+    },
+    {
+      "case_id": "A150_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 147.9960957079893
+    },
+    {
+      "case_id": "A155_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.6782177919522
+    },
+    {
+      "case_id": "A156_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.23292358289473
+    },
+    {
+      "case_id": "A160_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.42841199995019
+    },
+    {
+      "case_id": "A161_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.30183949996717
+    },
+    {
+      "case_id": "A158_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 147.16629520896822
+    },
+    {
+      "case_id": "A163_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.01541520899627
+    },
+    {
+      "case_id": "A167_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 135.49313883308787
+    },
+    {
+      "case_id": "A168_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.95140458398964
+    },
+    {
+      "case_id": "A171_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.54528550000396
+    },
+    {
+      "case_id": "A173_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.92257479205728
+    },
+    {
+      "case_id": "A174_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.65007804206107
+    },
+    {
+      "case_id": "A178_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.6203389589209
+    },
+    {
+      "case_id": "A184_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.72775170893874
+    },
+    {
+      "case_id": "A186_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.2784857089864
+    },
+    {
+      "case_id": "A193_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.40273437497672
+    },
+    {
+      "case_id": "A194_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 135.92088258394506
+    },
+    {
+      "case_id": "A196_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 134.48560637503397
+    },
+    {
+      "case_id": "A187_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 146.44308829202782
+    },
+    {
+      "case_id": "A202_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 135.87471237499267
+    },
+    {
+      "case_id": "A204_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.25462079199497
+    },
+    {
+      "case_id": "A206_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.54837512492668
+    },
+    {
+      "case_id": "A209_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.85503037506714
+    },
+    {
+      "case_id": "A210_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.21120158291887
+    },
+    {
+      "case_id": "A212_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.9029172080336
+    },
+    {
+      "case_id": "A208_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 147.93821199995
+    },
+    {
+      "case_id": "A215_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.05197754211258
+    },
+    {
+      "case_id": "A217_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.17721987504046
+    },
+    {
+      "case_id": "A219_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.7709249999607
+    },
+    {
+      "case_id": "A221_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.19788987503853
+    },
+    {
+      "case_id": "A223_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.1152288329322
+    },
+    {
+      "case_id": "A225_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.6136483750306
+    },
+    {
+      "case_id": "A226_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.2341795420507
+    },
+    {
+      "case_id": "A234_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 133.20912208303344
+    },
+    {
+      "case_id": "A227_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.45752262498718
+    },
+    {
+      "case_id": "A232_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.0287895000074
+    },
+    {
+      "case_id": "A235_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.8959088328993
+    },
+    {
+      "case_id": "A239_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.36727787507698
+    },
+    {
+      "case_id": "A241_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.01948566595092
+    },
+    {
+      "case_id": "A245_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.72895804198924
+    },
+    {
+      "case_id": "A246_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.27869041706435
+    },
+    {
+      "case_id": "A247_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.09322645899374
+    },
+    {
+      "case_id": "A243_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 147.1453975830227
+    },
+    {
+      "case_id": "A248_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.42132958292495
+    },
+    {
+      "case_id": "A249_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.46457924996503
+    },
+    {
+      "case_id": "A252_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.20847862493247
+    },
+    {
+      "case_id": "A259_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.28239858301822
+    },
+    {
+      "case_id": "A261_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.80654112505727
+    },
+    {
+      "case_id": "A270_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.46855300001334
+    },
+    {
+      "case_id": "A264_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.20590933295898
+    },
+    {
+      "case_id": "A271_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.20959141699132
+    },
+    {
+      "case_id": "A272_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.5946177910082
+    },
+    {
+      "case_id": "A274_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.70732187503017
+    },
+    {
+      "case_id": "A277_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.65665504091885
+    },
+    {
+      "case_id": "A279_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.42185762501322
+    },
+    {
+      "case_id": "A281_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.90547933301423
+    },
+    {
+      "case_id": "A283_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.36232341604773
+    },
+    {
+      "case_id": "A284_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.93214804201853
+    },
+    {
+      "case_id": "A286_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.46716916700825
+    },
+    {
+      "case_id": "A285_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.87212170800194
+    },
+    {
+      "case_id": "A287_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.15470395796
+    },
+    {
+      "case_id": "A289_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.33566591702402
+    },
+    {
+      "case_id": "A290_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.14643137494568
+    },
+    {
+      "case_id": "A293_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.17718862497713
+    },
+    {
+      "case_id": "A294_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.95017237507273
+    },
+    {
+      "case_id": "A297_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.1359374159947
+    },
+    {
+      "case_id": "A300_20120701",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.19071866606828
+    },
+    {
+      "case_id": "A001_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 151.60305449995212
+    },
+    {
+      "case_id": "A003_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 149.66682020795997
+    },
+    {
+      "case_id": "A004_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.2470939999912
+    },
+    {
+      "case_id": "A006_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.864958625054
+    },
+    {
+      "case_id": "A005_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 149.699944291031
+    },
+    {
+      "case_id": "A007_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 146.5172173329629
+    },
+    {
+      "case_id": "A008_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.3936603749171
+    },
+    {
+      "case_id": "A009_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.06280858290847
+    },
+    {
+      "case_id": "A014_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.5867517089937
+    },
+    {
+      "case_id": "A010_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 151.57141075003892
+    },
+    {
+      "case_id": "A015_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.59723383304663
+    },
+    {
+      "case_id": "A018_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.6932899170788
+    },
+    {
+      "case_id": "A019_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.47780737502035
+    },
+    {
+      "case_id": "A023_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.8504338329658
+    },
+    {
+      "case_id": "A029_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.5509894581046
+    },
+    {
+      "case_id": "A030_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.89319537498523
+    },
+    {
+      "case_id": "A035_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.66414649994113
+    },
+    {
+      "case_id": "A036_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 147.45017783297226
+    },
+    {
+      "case_id": "A037_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.73333304200787
+    },
+    {
+      "case_id": "A039_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.6397804170847
+    },
+    {
+      "case_id": "A041_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.93308220803738
+    },
+    {
+      "case_id": "A043_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.38268462498672
+    },
+    {
+      "case_id": "A042_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 148.9863947079284
+    },
+    {
+      "case_id": "A049_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.2190024170559
+    },
+    {
+      "case_id": "A051_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.12880987499375
+    },
+    {
+      "case_id": "A053_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 150.97200916695874
+    },
+    {
+      "case_id": "A054_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 156.35497912496794
+    },
+    {
+      "case_id": "A056_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 151.9826352079399
+    },
+    {
+      "case_id": "A061_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 150.11341429199092
+    },
+    {
+      "case_id": "A059_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 156.47197404201142
+    },
+    {
+      "case_id": "A064_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 158.09102645900566
+    },
+    {
+      "case_id": "A065_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 167.22947587503586
+    },
+    {
+      "case_id": "A070_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 164.4777666250011
+    },
+    {
+      "case_id": "A069_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 168.17908804200124
+    },
+    {
+      "case_id": "A066_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 171.1418642499484
+    },
+    {
+      "case_id": "A071_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 167.39484858396463
+    },
+    {
+      "case_id": "A073_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 171.85896979109384
+    },
+    {
+      "case_id": "A075_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 168.72203437506687
+    },
+    {
+      "case_id": "A084_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 168.9693326660199
+    },
+    {
+      "case_id": "A077_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 175.41605058300775
+    },
+    {
+      "case_id": "A081_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 180.60048766608816
+    },
+    {
+      "case_id": "A087_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 180.01656008395366
+    },
+    {
+      "case_id": "A088_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 186.2308218330145
+    },
+    {
+      "case_id": "A094_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 195.08883954200428
+    },
+    {
+      "case_id": "A096_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 183.1899450829951
+    },
+    {
+      "case_id": "A095_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 189.13252750004176
+    },
+    {
+      "case_id": "A098_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 183.74413045798428
+    },
+    {
+      "case_id": "A099_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 191.335875333054
+    },
+    {
+      "case_id": "A105_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 179.55232454207726
+    },
+    {
+      "case_id": "A107_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 154.77887329203077
+    },
+    {
+      "case_id": "A108_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 149.22331004193984
+    },
+    {
+      "case_id": "A110_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 153.40781970799435
+    },
+    {
+      "case_id": "A112_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 153.94110270799138
+    },
+    {
+      "case_id": "A118_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.93405475001782
+    },
+    {
+      "case_id": "A119_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.8356187089812
+    },
+    {
+      "case_id": "A122_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 133.21064720803406
+    },
+    {
+      "case_id": "A123_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.18263941607438
+    },
+    {
+      "case_id": "A125_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.30618516693357
+    },
+    {
+      "case_id": "A127_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 134.76409158296883
+    },
+    {
+      "case_id": "A126_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 146.58360991696827
+    },
+    {
+      "case_id": "A129_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 136.24562158307526
+    },
+    {
+      "case_id": "A133_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.36332658294123
+    },
+    {
+      "case_id": "A137_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.99343895795755
+    },
+    {
+      "case_id": "A145_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.76431087497622
+    },
+    {
+      "case_id": "A140_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.6633065000642
+    },
+    {
+      "case_id": "A150_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 137.73552074993495
+    },
+    {
+      "case_id": "A146_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.08296108304057
+    },
+    {
+      "case_id": "A151_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 140.29859354207292
+    },
+    {
+      "case_id": "A154_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.80657858401537
+    },
+    {
+      "case_id": "A156_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.9972630420234
+    },
+    {
+      "case_id": "A155_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 150.10407620796468
+    },
+    {
+      "case_id": "A160_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 147.2941172089195
+    },
+    {
+      "case_id": "A158_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 150.8597074589925
+    },
+    {
+      "case_id": "A161_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.89357220800593
+    },
+    {
+      "case_id": "A163_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.41549120901618
+    },
+    {
+      "case_id": "A167_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.61871433304623
+    },
+    {
+      "case_id": "A168_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.0645267079817
+    },
+    {
+      "case_id": "A173_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.2272921249969
+    },
+    {
+      "case_id": "A174_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.69781862501986
+    },
+    {
+      "case_id": "A178_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.7426830000477
+    },
+    {
+      "case_id": "A184_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.69704583310522
+    },
+    {
+      "case_id": "A186_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.97505329200067
+    },
+    {
+      "case_id": "A187_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.58924437488895
+    },
+    {
+      "case_id": "A193_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.6595204169862
+    },
+    {
+      "case_id": "A194_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 146.353116333019
+    },
+    {
+      "case_id": "A196_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 141.51995379198343
+    },
+    {
+      "case_id": "A202_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.4457783329999
+    },
+    {
+      "case_id": "A206_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.08210883301217
+    },
+    {
+      "case_id": "A204_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 149.6485155839473
+    },
+    {
+      "case_id": "A209_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 139.99123937508557
+    },
+    {
+      "case_id": "A208_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.84170250000898
+    },
+    {
+      "case_id": "A210_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 143.67911245895084
+    },
+    {
+      "case_id": "A212_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 145.47438533289824
+    },
+    {
+      "case_id": "A215_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.04614058393054
+    },
+    {
+      "case_id": "A217_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 144.83183525002096
+    },
+    {
+      "case_id": "A221_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 142.94510999997146
+    },
+    {
+      "case_id": "A219_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 148.0934912910452
+    },
+    {
+      "case_id": "A223_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 138.81396691699047
+    },
+    {
+      "case_id": "A225_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 134.8716862499714
+    },
+    {
+      "case_id": "A226_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 134.85866725002415
+    },
+    {
+      "case_id": "A232_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 130.33873116609175
+    },
+    {
+      "case_id": "A227_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 135.96158699993975
+    },
+    {
+      "case_id": "A234_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 131.18795874994248
+    },
+    {
+      "case_id": "A235_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 116.24920737498906
+    },
+    {
+      "case_id": "A239_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 111.24890100001357
+    },
+    {
+      "case_id": "A243_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 112.92691445804667
+    },
+    {
+      "case_id": "A241_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 117.8452827919973
+    },
+    {
+      "case_id": "A246_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 110.94985400000587
+    },
+    {
+      "case_id": "A245_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 111.9393382089911
+    },
+    {
+      "case_id": "A247_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 117.84144220792223
+    },
+    {
+      "case_id": "A248_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 115.67928949999623
+    },
+    {
+      "case_id": "A252_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 109.753637042013
+    },
+    {
+      "case_id": "A249_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 118.2789648330072
+    },
+    {
+      "case_id": "A259_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 120.81704341701698
+    },
+    {
+      "case_id": "A261_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 121.8977134579327
+    },
+    {
+      "case_id": "A264_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 125.14360549999401
+    },
+    {
+      "case_id": "A270_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 132.40986458293628
+    },
+    {
+      "case_id": "A271_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 122.2581239999272
+    },
+    {
+      "case_id": "A274_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 124.56067783304024
+    },
+    {
+      "case_id": "A277_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 124.35527416702826
+    },
+    {
+      "case_id": "A279_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 125.15568249998614
+    },
+    {
+      "case_id": "A281_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 125.24010345793795
+    },
+    {
+      "case_id": "A285_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 121.29919779195916
+    },
+    {
+      "case_id": "A283_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 122.93402416701429
+    },
+    {
+      "case_id": "A286_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 118.9230112079531
+    },
+    {
+      "case_id": "A287_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 118.8515042080544
+    },
+    {
+      "case_id": "A289_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 120.99872379202861
+    },
+    {
+      "case_id": "A290_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 107.04261650005355
+    },
+    {
+      "case_id": "A294_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 102.27754733292386
+    },
+    {
+      "case_id": "A293_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 104.56876991700847
+    },
+    {
+      "case_id": "A297_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 102.89065133291297
+    },
+    {
+      "case_id": "A300_20130101",
+      "status": "complete",
+      "logical_rows": 255,
+      "expected_failures": 3,
+      "elapsed_seconds": 99.74839404202066
+    }
+  ],
+  "elapsed_seconds": 6613.172343624989
+}

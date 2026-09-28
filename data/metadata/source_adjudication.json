@@ -1,0 +1,37 @@
+{
+  "adjudicated_at_utc": "2026-09-28T16:01:44.773847+00:00",
+  "decision": "accept qualified retrospective preservation copy",
+  "scope": "Only frozen July 2012 and January 2013 whole-site cases; counterfactual interval-model evaluation",
+  "source_archive_sha256": "5a766f52b6c8b3b72730380f4422e478934bc94640a4b089dd0e0e3c055c5d82",
+  "source_archive_bytes": 57038633,
+  "member_sha256": {
+    "Solar home 2011-2012.csv": "a7d6abd1369311a5566e00d249141fd8aec28e9faba0bc928788607d961fc8c8",
+    "Solar home 2012-2013.csv": "e4be46b3c9991c65735a9545319a2f1c33be8e639c75a17a88e0323a8e5098be"
+  },
+  "cohort_sha256": "602ab878443ecc5776aa35e6bc4126a7f3e4973f54ee083e5bc5dcbe8f8075f1",
+  "government_metadata_sha256": "741d0b4e931c25731ca040c1f81a600a54218f12b15021c8089ce16c51440355",
+  "source_identity_and_stated_licence_confirmed": true,
+  "publisher_csv_authentication_recovered": false,
+  "source_gate_adjudicated": true,
+  "external_controller_execution_activated": false,
+  "household_controllers_run": false,
+  "justification": [
+    "Government catalogue independently identifies Ausgrid, the dataset scope and stated CC BY 3.0 Australia licence.",
+    "Original notes establish kWh per half hour, end labels, separate GG/GC/CL and actual-versus-estimated flags.",
+    "Preserved archive and both used annual members reproduce the hashes from the pre-outcome quality screen.",
+    "No contrary source evidence is known; this supports explicitly qualified retrospective use, not proof of original bytes.",
+    "DST-ambiguous windows remain excluded, and all 138/269 predeclared candidates are retained without outcome selection."
+  ],
+  "limits": [
+    "third-party preservation copy, not publisher-authenticated CSV",
+    "receipt times assumed at interval end; no historical delivery evidence",
+    "local power and feedback synthesized from constant interval-average reconstruction",
+    "two seasonal windows, selected solar/CL cohort; not annual or population evidence",
+    "Cyprus boundary and clock gaps remain separate and unresolved"
+  ],
+  "transport": "CSV archive and Python in-process objects; field meter/inverter protocols not supplied",
+  "source_links": {
+    "catalogue": "https://data.gov.au/data/api/3/action/package_show?id=nsw-solar-home-electricty-data",
+    "preservation_copy": "https://github.com/pierre-haessig/ausgrid-solar-data"
+  }
+}

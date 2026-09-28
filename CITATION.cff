@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this software release when reusing the experiment. The accompanying article is a submission draft."
+type: software
+title: "GreedySmartCharger: reproducible household battery-control comparison"
+version: 1.0.0
+date-released: 2026-09-28
+authors:
+  - family-names: Makonin
+    given-names: Stephen
+    affiliation: "School of Engineering Science, Simon Fraser University"
+repository-code: "https://github.com/smakonin/GreedySmartCharger"
+license: MIT

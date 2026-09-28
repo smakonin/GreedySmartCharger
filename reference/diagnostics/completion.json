@@ -1,0 +1,6 @@
+{
+  "completed_at_utc": "2026-09-28T19:45:15.845003+00:00",
+  "references": 120,
+  "runtime_samples": 6000,
+  "runtime_scope": "20 predetermined decision indices per policy per selected case/tariff; fresh causal forecast, uncached planner, projection and initial guard. Later local events and full episode runtime are not timed by this benchmark."
+}

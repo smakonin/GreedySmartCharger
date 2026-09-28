@@ -1,0 +1,548 @@
+{
+  "passed": true,
+  "compared_mpc_windows": 60,
+  "maximum_residual": 2.9176661087149114e-13,
+  "records": [
+    {
+      "case_id": "A039_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 47.84721280000001,
+      "dual_bound": 46.20618239999998,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0902390101819037e-13
+    },
+    {
+      "case_id": "A039_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 52.491511987534636,
+      "dual_bound": 47.56411628808864,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0902390101819037e-13
+    },
+    {
+      "case_id": "A039_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -1.6484116419667274,
+      "dual_bound": -18.26427135248401,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.9176661087149114e-13
+    },
+    {
+      "case_id": "A049_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 32.60462129999998,
+      "dual_bound": 31.321314,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.1257661469699087e-13
+    },
+    {
+      "case_id": "A049_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 37.04040615296049,
+      "dual_bound": 32.550773573407206,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.1257661469699087e-13
+    },
+    {
+      "case_id": "A049_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -0.49599646814404785,
+      "dual_bound": -21.875591875474615,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.1094237467877974e-13
+    },
+    {
+      "case_id": "A051_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 53.342130149999974,
+      "dual_bound": 51.401386399999986,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.815525590449397e-13
+    },
+    {
+      "case_id": "A051_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 58.97261816481989,
+      "dual_bound": 54.12334991689751,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.815525590449397e-13
+    },
+    {
+      "case_id": "A051_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 2.849476954968856,
+      "dual_bound": -9.570996319856903,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.8562928971732617e-13
+    },
+    {
+      "case_id": "A125_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 49.10439742132962,
+      "dual_bound": 45.8484034,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 9.992007221626409e-14
+    },
+    {
+      "case_id": "A125_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 50.52153065096952,
+      "dual_bound": 46.42988585927978,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 9.992007221626409e-14
+    },
+    {
+      "case_id": "A125_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -19.590071356319235,
+      "dual_bound": -28.085368718126006,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.6423307986078726e-13
+    },
+    {
+      "case_id": "A178_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 27.763386100000023,
+      "dual_bound": 25.9593718,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 7.638334409421077e-14
+    },
+    {
+      "case_id": "A178_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 29.92869153047094,
+      "dual_bound": 26.75534470914127,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 7.638334409421077e-14
+    },
+    {
+      "case_id": "A178_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -8.345195290858733,
+      "dual_bound": -21.146390499004227,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 7.72715225139109e-14
+    },
+    {
+      "case_id": "A225_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 68.05484000000001,
+      "dual_bound": 67.1216162,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.8562928971732617e-13
+    },
+    {
+      "case_id": "A225_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 76.88581333795015,
+      "dual_bound": 70.75426116343486,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.8562928971732617e-13
+    },
+    {
+      "case_id": "A225_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 25.52003650831029,
+      "dual_bound": 2.5982064530294124,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.8562928971732617e-13
+    },
+    {
+      "case_id": "A235_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 52.97467095,
+      "dual_bound": 51.0049876,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0791367799356522e-13
+    },
+    {
+      "case_id": "A235_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 57.04332631578948,
+      "dual_bound": 52.55898393351801,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0791367799356522e-13
+    },
+    {
+      "case_id": "A235_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -9.430969569027011,
+      "dual_bound": -24.06977188321114,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.1524114995609125e-13
+    },
+    {
+      "case_id": "A245_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 39.851875777008324,
+      "dual_bound": 34.44781419999997,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 9.847678228425139e-14
+    },
+    {
+      "case_id": "A245_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 42.9910884695291,
+      "dual_bound": 35.41274815955678,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 9.847678228425139e-14
+    },
+    {
+      "case_id": "A245_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -5.294756805540155,
+      "dual_bound": -17.970341199053046,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.4210854715202004e-13
+    },
+    {
+      "case_id": "A286_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 76.10258,
+      "dual_bound": 75.3747038,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0502709812953981e-13
+    },
+    {
+      "case_id": "A286_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 82.69811511772855,
+      "dual_bound": 77.78037861495845,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0502709812953981e-13
+    },
+    {
+      "case_id": "A286_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 25.74577433730953,
+      "dual_bound": 10.15237012136678,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.6298074001497298e-13
+    },
+    {
+      "case_id": "A290_20120701",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 48.52430894999999,
+      "dual_bound": 47.8256376,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 5.395683899678261e-14
+    },
+    {
+      "case_id": "A290_20120701",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 51.4691096537396,
+      "dual_bound": 48.81348033240997,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 5.395683899678261e-14
+    },
+    {
+      "case_id": "A290_20120701",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -4.5944443516966516,
+      "dual_bound": -14.763483510018943,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.6689761511988763e-13
+    },
+    {
+      "case_id": "A039_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 34.75033999999998,
+      "dual_bound": 32.9086836,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0147438445073931e-13
+    },
+    {
+      "case_id": "A039_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 39.57885257617726,
+      "dual_bound": 33.943744044321335,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0147438445073931e-13
+    },
+    {
+      "case_id": "A039_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -11.4331636539993,
+      "dual_bound": -23.089868911091795,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 8.815170815523743e-14
+    },
+    {
+      "case_id": "A049_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 47.45118904999998,
+      "dual_bound": 46.127780400000006,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.5579538487363607e-13
+    },
+    {
+      "case_id": "A049_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 56.52486030470912,
+      "dual_bound": 49.7369096398892,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.5579538487363607e-13
+    },
+    {
+      "case_id": "A049_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 13.329683357635014,
+      "dual_bound": -4.200141074922609,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.2160051571518125e-13
+    },
+    {
+      "case_id": "A051_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 33.96863815,
+      "dual_bound": 29.963642799999995,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 3.930189507173054e-14
+    },
+    {
+      "case_id": "A051_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 38.98588141894044,
+      "dual_bound": 30.433499437673127,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 3.930189507173054e-14
+    },
+    {
+      "case_id": "A051_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 0.1536383663434907,
+      "dual_bound": -13.616123002016149,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.0724754417879012e-13
+    },
+    {
+      "case_id": "A125_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 49.44643869556786,
+      "dual_bound": 46.42062439999998,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 6.394884621840902e-14
+    },
+    {
+      "case_id": "A125_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 52.938242014456364,
+      "dual_bound": 47.03664554016616,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 6.394884621840902e-14
+    },
+    {
+      "case_id": "A125_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -15.20565327929363,
+      "dual_bound": -23.993846637813085,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 4.884981308350689e-14
+    },
+    {
+      "case_id": "A178_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 16.160102999999992,
+      "dual_bound": 14.375645800000001,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 5.831446436843635e-14
+    },
+    {
+      "case_id": "A178_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 18.622482561114946,
+      "dual_bound": 14.868429252077561,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 5.831446436843635e-14
+    },
+    {
+      "case_id": "A178_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -6.115466059556788,
+      "dual_bound": -17.17652006453188,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.1726730697603216e-14
+    },
+    {
+      "case_id": "A225_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 32.949842399999994,
+      "dual_bound": 31.2760554,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 9.368200659665149e-14
+    },
+    {
+      "case_id": "A225_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 35.733264337777015,
+      "dual_bound": 31.921305041551232,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 9.382772336863354e-14
+    },
+    {
+      "case_id": "A225_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -11.458724596589336,
+      "dual_bound": -22.060095757844152,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 7.593925488436071e-14
+    },
+    {
+      "case_id": "A235_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 13.064662249999994,
+      "dual_bound": 10.326611,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 6.17284001691587e-14
+    },
+    {
+      "case_id": "A235_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 15.48189967105262,
+      "dual_bound": 10.383735844875346,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 6.17284001691587e-14
+    },
+    {
+      "case_id": "A235_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -4.689330782548495,
+      "dual_bound": -13.25158416253744,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.2604140781368187e-13
+    },
+    {
+      "case_id": "A245_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 13.555264441966758,
+      "dual_bound": 7.3605305999999935,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.6423307986078726e-13
+    },
+    {
+      "case_id": "A245_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 16.199869878531867,
+      "dual_bound": 7.5007109905817035,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 2.6423307986078726e-13
+    },
+    {
+      "case_id": "A245_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -2.290540013019385,
+      "dual_bound": -12.586123751087793,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 6.539213615042172e-14
+    },
+    {
+      "case_id": "A286_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 46.490740349999996,
+      "dual_bound": 45.955533,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 3.086420008457935e-14
+    },
+    {
+      "case_id": "A286_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 52.06911740997229,
+      "dual_bound": 47.5419271468144,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 3.086420008457935e-14
+    },
+    {
+      "case_id": "A286_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -3.441586020256209,
+      "dual_bound": -19.900480248385854,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.141309269314661e-13
+    },
+    {
+      "case_id": "A290_20130101",
+      "tariff": "flat",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 31.991041400000015,
+      "dual_bound": 30.573074199999994,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.146166495047396e-13
+    },
+    {
+      "case_id": "A290_20130101",
+      "tariff": "tou",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": 36.56934562326872,
+      "dual_bound": 31.433857728531855,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 1.1476930517062556e-13
+    },
+    {
+      "case_id": "A290_20130101",
+      "tariff": "signed",
+      "mpc_feasible_in_interval_mode_model": true,
+      "mpc_cost": -6.493213538781175,
+      "dual_bound": -21.157202619690818,
+      "dual_bound_no_greater_than_mpc": true,
+      "arithmetic_residual": 9.703349235223868e-14
+    }
+  ],
+  "scope": "MILP permits one charging/discharging mode per half-hour. Every primary MPC trajectory actually compared with its dual bound is feasible in that restricted interval model. The dual bound is not asserted to lower-bound all continuously switching SCR trajectories or the broader continuous-time optimum."
+}

@@ -1,0 +1,5 @@
+test_start,screened_customers,whole_site_quality,whole_site_clock_and_quality_candidates,general_load_only_quality,general_load_clock_and_quality_candidates
+2012-07-01,300,137,137,296,296
+2012-10-01,300,136,0,296,0
+2013-01-01,300,132,132,296,296
+2013-04-01,300,124,0,290,0

@@ -1,0 +1,19 @@
+{
+  "scope": "Packaging and filesystem portability; no changed recurrence, controller policy, forecast, matrix, or admission tolerance",
+  "changed_from_original": [
+    "src/analyze_household_comparison.py",
+    "src/audit_household_comparison.py",
+    "src/ausgrid_interval_loader.py",
+    "src/native_interval_planner.py",
+    "tests/test_household_liability_v2.py"
+  ],
+  "changes": {
+    "src/native_interval_planner.py": "Platform-specific library discovery, explicit Python-reference backend; original recurrence and first-action logic unchanged",
+    "src/ausgrid_interval_loader.py": "Source/metadata paths moved into data/",
+    "src/analyze_household_comparison.py": "Metadata lookup uses the companion root, independent of output location",
+    "src/audit_household_comparison.py": "Integrity checks use portable source snapshot paths",
+    "tests/test_household_liability_v2.py": "Historical regression input fixture located under reference/cases/"
+  },
+  "new_orchestration": "reproduce.py; reference hash/mean/bootstrap checks, local compile, data retrieval, reanalysis, controller execution and numerical comparison",
+  "paper_files_included": false
+}

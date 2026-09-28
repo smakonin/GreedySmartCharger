@@ -1,0 +1,11 @@
+{
+  "python": "3.14.4 (v3.14.4:23116f998f6, Apr  7 2026, 09:45:22) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "implementation": "Native binary64 DP continuation; compiler and flags in native_validation.json",
+  "numerical_library_threads": 1,
+  "study_workers": 6,
+  "notebook_executor": "Sequential Python exec with actual stdout/image outputs; notebook reruns need a compatible Jupyter installation"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "logical_rows": 68595,
+  "unique_successful_traces_hashed": 54069,
+  "expected_domain_failures": 807,
+  "frozen_files_checked": 184,
+  "decoded_hash_selected_households": 10,
+  "decoded_windows": 20,
+  "decoded_unique_trajectories": 4020,
+  "decoded_physical_segments": 5959552,
+  "decoded_decisions": 5572800,
+  "max_decoded_arithmetic_residual": 9.313225746154785e-10,
+  "elapsed_seconds": 46.819047958939336,
+  "timestamp_collapsed_events_all_traces": 51,
+  "event_rounding_audit_passed": true,
+  "scope": "Every physical trace hashed and matrix row reconciled; every unique trace from the predeclared 10-household/20-window diagnostic subset decoded and independently recomputed. Runtime execution separately audited every segment before saving."
+}

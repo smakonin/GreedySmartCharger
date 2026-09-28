@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+data/raw/
+runs/
+.build/
+*.so
+*.dylib
+*.dll
+# Submission materials stay outside this repository.
+*.tex
+*.pdf
+*.bib
+*.bst
+*.cls
+*.sty
+*.doc
+*.docx
+*.ppt
+*.pptx
+*MANUSCRIPT*
+*manuscript*
+cover-letter*
+cover_letter*
+highlights*
+els-cas-*

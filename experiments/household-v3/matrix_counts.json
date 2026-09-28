@@ -1,0 +1,11 @@
+{
+  "households": 138,
+  "household_windows": 269,
+  "tariffs": 3,
+  "configurations_per_tariff": 85,
+  "logical_rows": 68595,
+  "unique_physical_trajectories": 54876,
+  "primary_rows": 4035,
+  "diagnostic_perfect_forecast_rows": 60,
+  "diagnostic_hindsight_rows": 60
+}

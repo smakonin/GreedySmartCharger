@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-28",
+  "unit_tests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "source_download": "Exact public ZIP retrieved successfully and hash verified",
+  "fresh_controller_reproduction": {
+    "case_id": "A001_20120701",
+    "logical_rows": 255,
+    "expected_domain_failures": 3,
+    "passed": true,
+    "compared_numeric_metrics": 4851,
+    "max_absolute_difference": 0.0,
+    "tolerance": 1e-08,
+    "differences": [],
+    "scope": "smoke"
+  },
+  "saved_summary_reanalysis": {
+    "passed": true,
+    "scope": "All saved-summary analysis fields matched at absolute tolerance 1e-10; six figures regenerated; controllers not rerun",
+    "at_utc": "2026-09-28T20:50:45.861540+00:00"
+  },
+  "full_matrix_controllers_rerun_for_packaging": false,
+  "paper_files_included": false,
+  "source_changes": "See portability-changes.json; C source is unchanged."
+}

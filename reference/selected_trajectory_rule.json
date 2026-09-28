@@ -1,0 +1,14 @@
+[
+  {
+    "tariff": "flat",
+    "case_id": "A248_20120701"
+  },
+  {
+    "tariff": "tou",
+    "case_id": "A289_20130101"
+  },
+  {
+    "tariff": "signed",
+    "case_id": "A118_20120701"
+  }
+]

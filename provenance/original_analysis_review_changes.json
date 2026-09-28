@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-09-28T18:29:08.185099+00:00",
+  "execution_status": "Still running; no completed-study analysis produced",
+  "changes": [
+    {
+      "file": "analyze_household_comparison.py",
+      "description": "Moved source-screen loading before summary construction, fixing an undefined attrition variable found during pre-analysis review. No estimand, controller or data selection changed."
+    },
+    {
+      "file": "build_household_manuscript.py",
+      "description": "Expanded physical equations, matched-policy information table and conditional executed-action guarantee; results remain generated only from complete audited study."
+    },
+    {
+      "file": "plot_household_comparison.py",
+      "description": "Added explicitly outcome-selected adverse trajectory illustration, with saved selection rule; not a new statistical test or change to the execution matrix."
+    }
+  ]
+}

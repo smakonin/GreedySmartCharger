@@ -1,0 +1,4022 @@
+[
+  {
+    "case_id": "A039_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 46.206182400000024,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 46.206182400000024,
+      "shadow_cost": 46.20618240000006,
+      "shadow_final_soc": 0.0,
+      "regret": -3.552713678800501e-14,
+      "terminal_difference": -3.552713678800501e-14,
+      "efc": 1.5331733333333335,
+      "peak_kw": 6.14,
+      "import_kwh": 577.5772800000001,
+      "charge_ac_kwh": 24.208000000000002,
+      "discharge_ac_kwh": 21.847720000000002,
+      "curtailment_kwh": 3.505746040688429e-14,
+      "loss_kwh": 2.36028,
+      "load_kwh": 673.253,
+      "pv_kwh": 98.036,
+      "last_day_cost": 0.5999796000000004,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37057252472732216,
+          "median": 0.0002553120139054954,
+          "p95": 0.00028337708208709956
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.01943630340974778,
+          "median": 1.2999982573091984e-05,
+          "p95": 1.550000160932541e-05
+        },
+        "total": 0.4312648340128362
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.1479706074624119e-13,
+      "segments_checked": 1477,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "a0bace68b427bbe979c4b2a515bffe7699294ef682cb900dcab670a133d420de"
+  },
+  {
+    "case_id": "A039_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.21469479193910956,
+    "mip_gap": 4.613296525618833e-16,
+    "dual_bound": 46.20618239999998,
+    "primal_objective": 46.2061824,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A039_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 47.800877546052604,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 47.800877546052604,
+      "shadow_cost": 57.48091335000005,
+      "shadow_final_soc": 0.0,
+      "regret": -9.680035803947447,
+      "terminal_difference": -9.680035803947447,
+      "efc": 11.964369999999999,
+      "peak_kw": 9.922,
+      "import_kwh": 593.6358327631579,
+      "charge_ac_kwh": 188.91110526315788,
+      "discharge_ac_kwh": 170.49227249999998,
+      "curtailment_kwh": 1.5716594692349872e-15,
+      "loss_kwh": 18.418832763157894,
+      "load_kwh": 673.253,
+      "pv_kwh": 98.036,
+      "last_day_cost": 1.2429200000000002,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3825807555112988,
+          "median": 0.00026591704227030277,
+          "p95": 0.0002893044613301754
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020998115884140134,
+          "median": 1.4166929759085178e-05,
+          "p95": 1.6379129374399777e-05
+        },
+        "total": 0.446314417058602
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.1479706074624119e-13,
+      "segments_checked": 1477,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "960c96b23f7007d5fc1b06cbd6d4d280ab68b7b09c72a1f1a552cb2501b2d05f"
+  },
+  {
+    "case_id": "A039_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.3993346670176834,
+    "mip_gap": 0.0,
+    "dual_bound": 47.56411628808864,
+    "primal_objective": 47.56411628808864,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.0436096431476471e-13
+  },
+  {
+    "case_id": "A039_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -18.139038486426635,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": -18.139038486426635,
+      "shadow_cost": -17.227917135041626,
+      "shadow_final_soc": 0.0,
+      "regret": -0.9111213513850096,
+      "terminal_difference": -0.9111213513850096,
+      "efc": 33.17847807017542,
+      "peak_kw": 9.963999999999999,
+      "import_kwh": 640.8969602285309,
+      "charge_ac_kwh": 523.870706371191,
+      "discharge_ac_kwh": 472.79331249999973,
+      "curtailment_kwh": 14.602566357340743,
+      "loss_kwh": 51.077393871191106,
+      "load_kwh": 673.253,
+      "pv_kwh": 98.036,
+      "last_day_cost": -0.5992655711911399,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3701916156569496,
+          "median": 0.0002540625282563269,
+          "p95": 0.0002823392511345446
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021161836106330156,
+          "median": 1.4042016118764877e-05,
+          "p95": 1.7835065955296157e-05
+        },
+        "total": 0.4344570829998702
+      }
+    },
+    "audit": {
+      "independent_max_residual": 3.0730973321624333e-13,
+      "segments_checked": 1496,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "6880c608370860b52dafb4286874a7f271315544673a3276ec444ca2fccf73c8"
+  },
+  {
+    "case_id": "A039_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 6.8896804170217365,
+    "mip_gap": 3.57849799657493e-07,
+    "dual_bound": -18.26427135248401,
+    "primal_objective": -18.2642648166205,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 6.252776074688882e-13
+  },
+  {
+    "case_id": "A049_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 31.32131399999998,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 31.32131399999998,
+      "shadow_cost": 31.321313999999994,
+      "shadow_final_soc": 0.0,
+      "regret": -1.4210854715202004e-14,
+      "terminal_difference": -1.4210854715202004e-14,
+      "efc": 1.1292333333333338,
+      "peak_kw": 7.698,
+      "import_kwh": 391.51642499999963,
+      "charge_ac_kwh": 17.830000000000005,
+      "discharge_ac_kwh": 16.091575000000006,
+      "curtailment_kwh": 1.604055430148854e-14,
+      "loss_kwh": 1.7384250000000006,
+      "load_kwh": 478.12,
+      "pv_kwh": 88.342,
+      "last_day_cost": 0.07094800000000011,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4362393527990207,
+          "median": 0.0002930414630100131,
+          "p95": 0.0003369670012034475
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.0238409168086946,
+          "median": 1.5457975678145885e-05,
+          "p95": 2.1264533279463637e-05
+        },
+        "total": 0.5096606250153854
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.184607967275042e-13,
+      "segments_checked": 1478,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "e5cfd8324f8722972cfa16330682601c9b2c76f5cf217a19552024f9f6b01a81"
+  },
+  {
+    "case_id": "A049_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.42162533395458013,
+    "mip_gap": 0.0,
+    "dual_bound": 31.321314,
+    "primal_objective": 31.321314,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 4.440892098500626e-16
+  },
+  {
+    "case_id": "A049_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 32.77807184210525,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 32.77807184210525,
+      "shadow_cost": 40.74926522499998,
+      "shadow_final_soc": 0.0,
+      "regret": -7.971193382894732,
+      "terminal_difference": -7.971193382894732,
+      "efc": 9.214,
+      "peak_kw": 11.772,
+      "import_kwh": 403.96271052631545,
+      "charge_ac_kwh": 145.4842105263158,
+      "discharge_ac_kwh": 131.2995,
+      "curtailment_kwh": 1.5439038936193583e-15,
+      "loss_kwh": 14.184710526315786,
+      "load_kwh": 478.12,
+      "pv_kwh": 88.342,
+      "last_day_cost": 0.6524171052631581,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.5022496107267216,
+          "median": 0.00028924993239343166,
+          "p95": 0.000540385057684034
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02632750675547868,
+          "median": 1.5416997484862804e-05,
+          "p95": 3.238748759031295e-05
+        },
+        "total": 0.5836340410169214
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.184607967275042e-13,
+      "segments_checked": 1478,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "e346937737231c6595a418ff07ff996e6ca167a4ce11c7e5efaa833abe268c2b"
+  },
+  {
+    "case_id": "A049_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.26494904106948525,
+    "mip_gap": 0.0,
+    "dual_bound": 32.550773573407206,
+    "primal_objective": 32.550773573407206,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.1443326252491206e-13
+  },
+  {
+    "case_id": "A049_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -21.573769164819936,
+      "final_soc": 6.513842105263158,
+      "initial_soc": 0.0,
+      "objective": -21.573769164819936,
+      "shadow_cost": -18.166310537673148,
+      "shadow_final_soc": 6.513842105263156,
+      "regret": -3.407458627146788,
+      "terminal_difference": -3.407458627146788,
+      "efc": 28.73187596491223,
+      "peak_kw": 5.532,
+      "import_kwh": 504.06370079639845,
+      "charge_ac_kwh": 457.0895373961212,
+      "discharge_ac_kwh": 406.33515749999924,
+      "curtailment_kwh": 63.53132090027682,
+      "loss_kwh": 44.240537790858646,
+      "load_kwh": 478.12,
+      "pv_kwh": 88.342,
+      "last_day_cost": -0.7674394736842097,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.39268810534849763,
+          "median": 0.0002679999452084303,
+          "p95": 0.00030505241593346
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.022092019789852202,
+          "median": 1.4791032299399376e-05,
+          "p95": 1.816696021705866e-05
+        },
+        "total": 0.4619364170357585
+      }
+    },
+    "audit": {
+      "independent_max_residual": 3.2218672174622043e-13,
+      "segments_checked": 1476,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "2d1379796054054a8ace7beafa0b9b93d65c15355d9b9dba33913f272a1cc9d4"
+  },
+  {
+    "case_id": "A049_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.011581125087105,
+    "mip_gap": 0.00021224950157957501,
+    "dual_bound": -21.875591875474615,
+    "primal_objective": -21.870949777285315,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 6.996070389675424e-13
+  },
+  {
+    "case_id": "A051_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 51.40138639999992,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 51.40138639999992,
+      "shadow_cost": 51.40138639999992,
+      "shadow_final_soc": 0.0,
+      "regret": 0.0,
+      "terminal_difference": 0.0,
+      "efc": 2.0385733333333333,
+      "peak_kw": 6.61,
+      "import_kwh": 642.5173299999996,
+      "charge_ac_kwh": 32.188,
+      "discharge_ac_kwh": 29.04967,
+      "curtailment_kwh": 3.6467573752418936e-14,
+      "loss_kwh": 3.13833,
+      "load_kwh": 737.87,
+      "pv_kwh": 98.491,
+      "last_day_cost": 0.9531993999999778,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37386859802063555,
+          "median": 0.0002603749744594097,
+          "p95": 0.0002916669473052025
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.01980049628764391,
+          "median": 1.3082986697554588e-05,
+          "p95": 1.6754103126004334e-05
+        },
+        "total": 0.43518187501467764
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.964226086810129e-13,
+      "segments_checked": 1484,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "76d47f2853c47310d2219f63a8e74d0094bdc6eb168a063f86668b3409d28502"
+  },
+  {
+    "case_id": "A051_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.21202366601210088,
+    "mip_gap": 2.764683155550451e-16,
+    "dual_bound": 51.401386399999986,
+    "primal_objective": 51.4013864,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A051_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 54.340340152354486,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 54.340340152354486,
+      "shadow_cost": 70.39078497499985,
+      "shadow_final_soc": 0.0,
+      "regret": -16.05044482264536,
+      "terminal_difference": -16.05044482264536,
+      "efc": 19.64263157894737,
+      "peak_kw": 10.588000000000001,
+      "import_kwh": 669.6183144044318,
+      "charge_ac_kwh": 310.1468144044322,
+      "discharge_ac_kwh": 279.9075,
+      "curtailment_kwh": 1.2611439670351388e-15,
+      "loss_kwh": 30.239314404432132,
+      "load_kwh": 737.87,
+      "pv_kwh": 98.491,
+      "last_day_cost": 0.7463436842104842,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37276680557988584,
+          "median": 0.00025564595125615597,
+          "p95": 0.0002890873060096055
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.019947764347307384,
+          "median": 1.3291952200233936e-05,
+          "p95": 1.608289312571287e-05
+        },
+        "total": 0.4349552090279758
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.964226086810129e-13,
+      "segments_checked": 1484,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "2aeaf3fd7bf559da696c9d8bf4818a8f6c3ca6973ba2ce07a2b2bea473669db7"
+  },
+  {
+    "case_id": "A051_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.309741250006482,
+    "mip_gap": 0.0,
+    "dual_bound": 54.12334991689751,
+    "primal_objective": 54.12334991689751,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.865174681370263e-14
+  },
+  {
+    "case_id": "A051_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -9.485122290858724,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": -9.485122290858724,
+      "shadow_cost": -6.900534053808867,
+      "shadow_final_soc": 0.0,
+      "regret": -2.584588237049857,
+      "terminal_difference": -2.584588237049857,
+      "efc": 32.500869649122805,
+      "peak_kw": 6.86,
+      "import_kwh": 704.4817064750692,
+      "charge_ac_kwh": 513.1716260387811,
+      "discharge_ac_kwh": 463.1373924999999,
+      "curtailment_kwh": 15.06847293628815,
+      "loss_kwh": 50.03423353878115,
+      "load_kwh": 737.87,
+      "pv_kwh": 98.491,
+      "last_day_cost": -0.3225719113573346,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3620750756235793,
+          "median": 0.0002492909552529454,
+          "p95": 0.0002779274131171405
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020632093655876815,
+          "median": 1.3582990504801273e-05,
+          "p95": 2.070238115265962e-05
+        },
+        "total": 0.42570008302573115
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.8185453143360064e-13,
+      "segments_checked": 1504,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "49b379bbca754a714ce373f613d8f5822568ccddc8aa2e7786076526bccc986e"
+  },
+  {
+    "case_id": "A051_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.012376000056975,
+    "mip_gap": 0.0002314458741619625,
+    "dual_bound": -9.570996319856903,
+    "primal_objective": -9.56878166481982,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 3.5491609651217004e-12
+  },
+  {
+    "case_id": "A125_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 45.84860480000007,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 45.84860480000007,
+      "shadow_cost": 45.84840340000004,
+      "shadow_final_soc": 0.0,
+      "regret": 0.00020140000003010528,
+      "terminal_difference": 0.00020140000003010528,
+      "efc": 3.654346666666666,
+      "peak_kw": 4.42,
+      "import_kwh": 573.1075599999998,
+      "charge_ac_kwh": 57.700210526315786,
+      "discharge_ac_kwh": 52.07443999999999,
+      "curtailment_kwh": 0.0027894736842582315,
+      "loss_kwh": 5.6257705263157884,
+      "load_kwh": 731.685,
+      "pv_kwh": 164.206,
+      "last_day_cost": 0.21676319999999918,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37974136986304075,
+          "median": 0.00025925051886588335,
+          "p95": 0.0003055440727621317
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020471347495913506,
+          "median": 1.3375072740018368e-05,
+          "p95": 1.9429525127634393e-05
+        },
+        "total": 0.44297670910600573
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.0513812043200232e-13,
+      "segments_checked": 1476,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "dfeec97b3ade612bb3e5e1a7f87fccfcec73dc853fcdd27e0689191326697a05"
+  },
+  {
+    "case_id": "A125_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.21038779197260737,
+    "mip_gap": 0.0,
+    "dual_bound": 45.8484034,
+    "primal_objective": 45.8484034,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A125_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 46.630585720775606,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 46.630585720775606,
+      "shadow_cost": 51.57777337500001,
+      "shadow_final_soc": 0.0,
+      "regret": -4.9471876542244,
+      "terminal_difference": -4.9471876542244,
+      "efc": 8.146418245614035,
+      "peak_kw": 6.501157894736842,
+      "import_kwh": 580.0201965096951,
+      "charge_ac_kwh": 128.6276565096953,
+      "discharge_ac_kwh": 116.08645999999997,
+      "curtailment_kwh": 2.6315755130568164e-15,
+      "loss_kwh": 12.541196509695288,
+      "load_kwh": 731.685,
+      "pv_kwh": 164.206,
+      "last_day_cost": 1.3430831999999993,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37084283924195915,
+          "median": 0.000257145962677896,
+          "p95": 0.0002806723467074335
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.01967911166138947,
+          "median": 1.3082986697554588e-05,
+          "p95": 1.616899389773607e-05
+        },
+        "total": 0.4328546250471845
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.0513812043200232e-13,
+      "segments_checked": 1476,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "ac2546af57f305d79d2f158dcd74ced1fa545b75c5f1f21e28ba5e2d0cef6d22"
+  },
+  {
+    "case_id": "A125_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.19080529198981822,
+    "mip_gap": 0.0,
+    "dual_bound": 46.42988585927978,
+    "primal_objective": 46.42988585927978,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 8.43769498715119e-15
+  },
+  {
+    "case_id": "A125_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -27.774451458725725,
+      "final_soc": 4.793115789473682,
+      "initial_soc": 0.0,
+      "objective": -27.774451458725725,
+      "shadow_cost": -25.577190278601087,
+      "shadow_final_soc": 4.793115789473681,
+      "regret": -2.197261180124638,
+      "terminal_difference": -2.197261180124638,
+      "efc": 36.686744210526314,
+      "peak_kw": 6.898,
+      "import_kwh": 671.3788096745155,
+      "charge_ac_kwh": 581.7870747922437,
+      "discharge_ac_kwh": 520.5093749999999,
+      "curtailment_kwh": 42.622109882271516,
+      "loss_kwh": 56.48458400277007,
+      "load_kwh": 731.685,
+      "pv_kwh": 164.206,
+      "last_day_cost": -1.048950886426572,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.38239450519904494,
+          "median": 0.0002632499672472477,
+          "p95": 0.0002927940397057682
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021240629022940993,
+          "median": 1.4145509339869022e-05,
+          "p95": 1.7749966355040668e-05
+        },
+        "total": 0.44914933294057846
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.8888003100746573e-13,
+      "segments_checked": 1481,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "2f288af263effd4f37f3a46addd6dcf39ed9b3fd1dbb4f0391b651b004767811"
+  },
+  {
+    "case_id": "A125_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.011471958016045,
+    "mip_gap": 0.00032030069413575276,
+    "dual_bound": -28.085368718126006,
+    "primal_objective": -28.07637583545709,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 8.400391493523784e-12
+  },
+  {
+    "case_id": "A178_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 25.959371799999996,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 25.959371799999996,
+      "shadow_cost": 25.959371799999992,
+      "shadow_final_soc": 0.0,
+      "regret": 3.552713678800501e-15,
+      "terminal_difference": 3.552713678800501e-15,
+      "efc": 2.481463333333333,
+      "peak_kw": 6.726,
+      "import_kwh": 324.4921475000003,
+      "charge_ac_kwh": 39.181000000000004,
+      "discharge_ac_kwh": 35.3608525,
+      "curtailment_kwh": 2.846247543208946e-14,
+      "loss_kwh": 3.8201475,
+      "load_kwh": 406.315,
+      "pv_kwh": 85.643,
+      "last_day_cost": 0.1282764000000003,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.42806083406321704,
+          "median": 0.0002912089694291353,
+          "p95": 0.0003435441292822361
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.023873806931078434,
+          "median": 1.5708967112004757e-05,
+          "p95": 2.16690415982157e-05
+        },
+        "total": 0.5008005420677364
+      }
+    },
+    "audit": {
+      "independent_max_residual": 8.054668043655511e-14,
+      "segments_checked": 1477,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "87a86635a6b6fbc46eb26f80322236e557112d9558b865a4462c5af0b856ada8"
+  },
+  {
+    "case_id": "A178_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2978222919628024,
+    "mip_gap": 0.0,
+    "dual_bound": 25.9593718,
+    "primal_objective": 25.9593718,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.1102230246251565e-16
+  },
+  {
+    "case_id": "A178_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 27.019825526315785,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 27.019825526315785,
+      "shadow_cost": 33.29370632499999,
+      "shadow_final_soc": 0.0,
+      "regret": -6.273880798684203,
+      "terminal_difference": -6.273880798684203,
+      "efc": 8.642,
+      "peak_kw": 6.726,
+      "import_kwh": 333.9761315789477,
+      "charge_ac_kwh": 136.45263157894738,
+      "discharge_ac_kwh": 123.14849999999998,
+      "curtailment_kwh": 1.5499754257852771e-15,
+      "loss_kwh": 13.304131578947366,
+      "load_kwh": 406.315,
+      "pv_kwh": 85.643,
+      "last_day_cost": 0.7006931578947371,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.38825573574285954,
+          "median": 0.0002644584747031331,
+          "p95": 0.00031569826533086595
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02167291787918657,
+          "median": 1.425005029886961e-05,
+          "p95": 1.8961093155667184e-05
+        },
+        "total": 0.45514554099645466
+      }
+    },
+    "audit": {
+      "independent_max_residual": 8.054668043655511e-14,
+      "segments_checked": 1477,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "82107823179c927601690e8e35d5f1b7cd11518220c3ee515158a652e88269d2"
+  },
+  {
+    "case_id": "A178_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2036186249461025,
+    "mip_gap": 2.655703910693159e-16,
+    "dual_bound": 26.75534470914127,
+    "primal_objective": 26.755344709141276,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-15
+  },
+  {
+    "case_id": "A178_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -20.74256144764541,
+      "final_soc": 4.773205263157892,
+      "initial_soc": 0.0,
+      "objective": -20.74256144764541,
+      "shadow_cost": -17.09403390027701,
+      "shadow_final_soc": 4.77320526315789,
+      "regret": -3.648527547368399,
+      "terminal_difference": -3.648527547368399,
+      "efc": 26.751612631578933,
+      "peak_kw": 5.866437673130045,
+      "import_kwh": 441.09232695290854,
+      "charge_ac_kwh": 424.9060969529084,
+      "discharge_ac_kwh": 378.94320749999974,
+      "curtailment_kwh": 74.45743749999993,
+      "loss_kwh": 41.189684189750665,
+      "load_kwh": 406.315,
+      "pv_kwh": 85.643,
+      "last_day_cost": -0.8109823268698055,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3875962484162301,
+          "median": 0.0002592080272734165,
+          "p95": 0.0003046316152904182
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.028911711764521897,
+          "median": 1.4459015801548958e-05,
+          "p95": 1.9131193403154606e-05
+        },
+        "total": 0.4638969589723274
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.591815650987428e-13,
+      "segments_checked": 1472,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "828cc782bd96f6896823e3e99842b9c76f6c1c7f79bc3c810a166ad1d2757fb4"
+  },
+  {
+    "case_id": "A178_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.039706791052595,
+    "mip_gap": 6.824712309995769e-05,
+    "dual_bound": -21.146390499004227,
+    "primal_objective": -21.144947417174908,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.8879564578355712e-11
+  },
+  {
+    "case_id": "A225_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 67.12161619999992,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 67.12161619999992,
+      "shadow_cost": 67.12161619999998,
+      "shadow_final_soc": 0.0,
+      "regret": -5.684341886080802e-14,
+      "terminal_difference": -5.684341886080802e-14,
+      "efc": 0.7776699999999999,
+      "peak_kw": 8.948,
+      "import_kwh": 839.0202025,
+      "charge_ac_kwh": 12.278999999999998,
+      "discharge_ac_kwh": 11.081797499999997,
+      "curtailment_kwh": 1.3604352019913613e-14,
+      "loss_kwh": 1.1972024999999995,
+      "load_kwh": 904.849,
+      "pv_kwh": 67.026,
+      "last_day_cost": 1.4700161999999943,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4981164198834449,
+          "median": 0.00032879150239750743,
+          "p95": 0.00048521842109039415
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.027364427340216935,
+          "median": 1.6666948795318604e-05,
+          "p95": 3.566902596503496e-05
+        },
+        "total": 0.5827093339757994
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.9538537454621974e-13,
+      "segments_checked": 1480,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "fafce3c24624136d366ed20517e0828543481be03b13246a3c289a9d610e251f"
+  },
+  {
+    "case_id": "A225_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2536179160233587,
+    "mip_gap": 0.0,
+    "dual_bound": 67.1216162,
+    "primal_objective": 67.1216162,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A225_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 70.9862839473684,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 70.9862839473684,
+      "shadow_cost": 88.2651996750001,
+      "shadow_final_soc": 0.0,
+      "regret": -17.2789157276317,
+      "terminal_difference": -17.2789157276317,
+      "efc": 19.766,
+      "peak_kw": 9.664,
+      "import_kwh": 868.2522368421053,
+      "charge_ac_kwh": 312.09473684210525,
+      "discharge_ac_kwh": 281.66549999999995,
+      "curtailment_kwh": 1.2125717097077882e-15,
+      "loss_kwh": 30.429236842105258,
+      "load_kwh": 904.849,
+      "pv_kwh": 67.026,
+      "last_day_cost": 1.6893949999999953,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4348447476513684,
+          "median": 0.00029181252466514707,
+          "p95": 0.0003446374787017703
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.022940134746022522,
+          "median": 1.5040975995361805e-05,
+          "p95": 1.9502133363857864e-05
+        },
+        "total": 0.506479625008069
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.9548251906087444e-13,
+      "segments_checked": 1480,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "7e757994fbcd0a613cf0dc38521bc92a3e315ac38aa8cdbee5ede66dff19bc3b"
+  },
+  {
+    "case_id": "A225_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.25593566603492945,
+    "mip_gap": 6.025441216484371e-16,
+    "dual_bound": 70.75426116343486,
+    "primal_objective": 70.7542611634349,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 5.440092820663267e-15
+  },
+  {
+    "case_id": "A225_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 2.6270746828255316,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 2.6270746828255316,
+      "shadow_cost": 17.60450943649594,
+      "shadow_final_soc": 0.0,
+      "regret": -14.977434753670407,
+      "terminal_difference": -14.977434753670407,
+      "efc": 32.9784040350877,
+      "peak_kw": 7.5600000000000005,
+      "import_kwh": 889.1978676592803,
+      "charge_ac_kwh": 520.7116426592795,
+      "discharge_ac_kwh": 469.94225749999976,
+      "curtailment_kwh": 0.6054825,
+      "loss_kwh": 50.76938515927975,
+      "load_kwh": 904.849,
+      "pv_kwh": 67.026,
+      "last_day_cost": 0.2729483922437678,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37214911461342126,
+          "median": 0.00025975005701184273,
+          "p95": 0.00028824993059970436
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02153238281607628,
+          "median": 1.4041084796190262e-05,
+          "p95": 2.2756919497623997e-05
+        },
+        "total": 0.4388772080419585
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.1538326677728037e-13,
+      "segments_checked": 1505,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "383245fb4946b8486593e3d5d07eee6237f2ddce85811b6e6d0db3ee3470baa7"
+  },
+  {
+    "case_id": "A225_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.010619874927215,
+    "mip_gap": 0.00022518025064563173,
+    "dual_bound": 2.5982064530294124,
+    "primal_objective": 2.598791649584444,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 5.628768562360165e-10
+  },
+  {
+    "case_id": "A235_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 51.004987599999936,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 51.004987599999936,
+      "shadow_cost": 51.00498759999996,
+      "shadow_final_soc": 0.0,
+      "regret": -2.1316282072803006e-14,
+      "terminal_difference": -2.1316282072803006e-14,
+      "efc": 1.8203266666666666,
+      "peak_kw": 5.418,
+      "import_kwh": 637.562345,
+      "charge_ac_kwh": 28.742,
+      "discharge_ac_kwh": 25.939655,
+      "curtailment_kwh": 3.9506592441895805e-14,
+      "loss_kwh": 2.8023449999999994,
+      "load_kwh": 718.12,
+      "pv_kwh": 83.36,
+      "last_day_cost": 0.9559394000000042,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.44626874930690974,
+          "median": 0.00028572900919243693,
+          "p95": 0.00041422054055146874
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.024821886676363647,
+          "median": 1.516647171229124e-05,
+          "p95": 3.242104430682957e-05
+        },
+        "total": 0.521373208030127
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.1357581541915351e-13,
+      "segments_checked": 1493,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "2d49ea1720d5289a3de57ede75189fbf83b3327e8a4c0588ffe5e980428645aa"
+  },
+  {
+    "case_id": "A235_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2488296669907868,
+    "mip_gap": 0.0,
+    "dual_bound": 51.0049876,
+    "primal_objective": 51.0049876,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A235_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 52.790791966758995,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 52.790791966758995,
+      "shadow_cost": 64.16939935000002,
+      "shadow_final_soc": 0.0,
+      "regret": -11.378607383241025,
+      "terminal_difference": -11.378607383241025,
+      "efc": 14.173122807017542,
+      "peak_kw": 8.618,
+      "import_kwh": 656.5791495844875,
+      "charge_ac_kwh": 223.78614958448753,
+      "discharge_ac_kwh": 201.96699999999998,
+      "curtailment_kwh": 7.541710311809169e-16,
+      "loss_kwh": 21.81914958448753,
+      "load_kwh": 718.12,
+      "pv_kwh": 83.36,
+      "last_day_cost": 1.4441594736842158,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.46457784075755626,
+          "median": 0.00031139550264924765,
+          "p95": 0.00039841487305238834
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.026134151266887784,
+          "median": 1.650000922381878e-05,
+          "p95": 3.1168997520580884e-05
+        },
+        "total": 0.5449354159645736
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.652011860642233e-13,
+      "segments_checked": 1493,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "522a152ca5e665e8d56f1e0fc9bdc289ab3f8199974f3219eccc1459dd102cf3"
+  },
+  {
+    "case_id": "A235_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2581331670517102,
+    "mip_gap": 0.0,
+    "dual_bound": 52.55898393351801,
+    "primal_objective": 52.55898393351801,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 6.328271240363392e-15
+  },
+  {
+    "case_id": "A235_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -23.913768148199473,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": -23.913768148199473,
+      "shadow_cost": -22.34179136440448,
+      "shadow_final_soc": 0.0,
+      "regret": -1.5719767837949945,
+      "terminal_difference": -1.5719767837949945,
+      "efc": 34.85073877192983,
+      "peak_kw": 10.17,
+      "import_kwh": 707.3678954639889,
+      "charge_ac_kwh": 550.2748227146815,
+      "discharge_ac_kwh": 496.62302749999986,
+      "curtailment_kwh": 18.956100249307493,
+      "loss_kwh": 53.65179521468143,
+      "load_kwh": 718.12,
+      "pv_kwh": 83.36,
+      "last_day_cost": -0.8764400382271528,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4202124740695581,
+          "median": 0.00028802058659493923,
+          "p95": 0.0003295955073554069
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02398065582383424,
+          "median": 1.5687488485127687e-05,
+          "p95": 2.3224629694595918e-05
+        },
+        "total": 0.49452145805116743
+      }
+    },
+    "audit": {
+      "independent_max_residual": 3.6060043839825084e-13,
+      "segments_checked": 1491,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "f2cf772cce4dedcccc16b10d0077210ff59434b868320668d6626972d6429bda"
+  },
+  {
+    "case_id": "A235_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.010526917059906,
+    "mip_gap": 7.769201342085313e-05,
+    "dual_bound": -24.06977188321114,
+    "primal_objective": -24.067901999445986,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.774225293933341e-12
+  },
+  {
+    "case_id": "A245_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 34.44781419999993,
+      "final_soc": 0.022744736842105207,
+      "initial_soc": 0.0,
+      "objective": 34.44781419999993,
+      "shadow_cost": 34.447814199999954,
+      "shadow_final_soc": 0.022744736842104984,
+      "regret": -2.1316282072803006e-14,
+      "terminal_difference": -2.1316282072803006e-14,
+      "efc": 6.614535175438595,
+      "peak_kw": 5.58,
+      "import_kwh": 430.5976775000002,
+      "charge_ac_kwh": 104.452,
+      "discharge_ac_kwh": 94.24632249999999,
+      "curtailment_kwh": 6.645031747076757e-14,
+      "loss_kwh": 10.182932763157893,
+      "load_kwh": 601.934,
+      "pv_kwh": 181.542,
+      "last_day_cost": 0.030960000000000248,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.41611110733356327,
+          "median": 0.00027374993078410625,
+          "p95": 0.0003433188248891382
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.022815095726400614,
+          "median": 1.4625024050474167e-05,
+          "p95": 2.3027049610391236e-05
+        },
+        "total": 0.48609791707713157
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.035838081975271e-13,
+      "segments_checked": 1473,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "3eebb220876a1b8930931053931939f19b911ccd1869b920409950b14e98989b"
+  },
+  {
+    "case_id": "A245_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2774734579725191,
+    "mip_gap": 1.0313321066392945e-15,
+    "dual_bound": 34.44781419999997,
+    "primal_objective": 34.4478142,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 3.597122599785507e-14
+  },
+  {
+    "case_id": "A245_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 35.57691785450133,
+      "final_soc": 0.022744736842105207,
+      "initial_soc": 0.0,
+      "objective": 35.57691785450133,
+      "shadow_cost": 43.74059664999997,
+      "shadow_final_soc": 0.022744736842104984,
+      "regret": -8.16367879549864,
+      "terminal_difference": -8.16367879549864,
+      "efc": 14.261705350877188,
+      "peak_kw": 10.399999999999999,
+      "import_kwh": 442.37029474376754,
+      "charge_ac_kwh": 225.1967922437673,
+      "discharge_ac_kwh": 203.21849749999993,
+      "curtailment_kwh": 1.1979132963357841e-14,
+      "loss_kwh": 21.9555500069252,
+      "load_kwh": 601.934,
+      "pv_kwh": 181.542,
+      "last_day_cost": 0.030960000000000303,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.49325887917075306,
+          "median": 0.0003135625156573951,
+          "p95": 0.0005866524355951694
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.029075621510855854,
+          "median": 1.7625046893954277e-05,
+          "p95": 3.855237155221402e-05
+        },
+        "total": 0.5836944169132039
+      }
+    },
+    "audit": {
+      "independent_max_residual": 3.0331293032759277e-13,
+      "segments_checked": 1473,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "cb5615b536632f8fcedd073ec2c46495d5f0ab5220ec7e56ecf64e1dbb827403"
+  },
+  {
+    "case_id": "A245_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.7193109591025859,
+    "mip_gap": 2.0064603079056634e-16,
+    "dual_bound": 35.41274815955678,
+    "primal_objective": 35.412748159556784,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 4.440892098500626e-15
+  },
+  {
+    "case_id": "A245_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -17.84634316315792,
+      "final_soc": 9.357894736842107,
+      "initial_soc": 0.0,
+      "objective": -17.84634316315792,
+      "shadow_cost": -14.737125342382317,
+      "shadow_final_soc": 9.357894736842105,
+      "regret": -3.1092178207756014,
+      "terminal_difference": -3.1092178207756014,
+      "efc": 31.240535964912276,
+      "peak_kw": 7.3740000000000006,
+      "import_kwh": 590.3962877631577,
+      "charge_ac_kwh": 498.1968282548476,
+      "discharge_ac_kwh": 440.73263749999984,
+      "curtailment_kwh": 112.54009700831018,
+      "loss_kwh": 48.10629601800553,
+      "load_kwh": 601.934,
+      "pv_kwh": 181.542,
+      "last_day_cost": -0.78025362880886,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.9740348971681669,
+          "median": 0.0006054795230738819,
+          "p95": 0.0009857023891527204
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.06028148764744401,
+          "median": 3.456242848187685e-05,
+          "p95": 7.589166634716092e-05
+        },
+        "total": 1.1589392080204561
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.204902926905561e-13,
+      "segments_checked": 1514,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "bae29f077bacc9b50802b16d1394d272e1a756dfe4c671047a8b5ea1e2f89762"
+  },
+  {
+    "case_id": "A245_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.016099666012451,
+    "mip_gap": 0.00014736066031908232,
+    "dual_bound": -17.970341199053046,
+    "primal_objective": -17.967693467879208,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.312798841330732e-10
+  },
+  {
+    "case_id": "A286_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 75.37470379999998,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 75.37470379999998,
+      "shadow_cost": 75.37470379999996,
+      "shadow_final_soc": 0.0,
+      "regret": 1.4210854715202004e-14,
+      "terminal_difference": 1.4210854715202004e-14,
+      "efc": 0.6409966666666685,
+      "peak_kw": 7.612,
+      "import_kwh": 942.1837975000002,
+      "charge_ac_kwh": 10.12100000000003,
+      "discharge_ac_kwh": 9.134202500000027,
+      "curtailment_kwh": 1.1364173491124063e-14,
+      "loss_kwh": 0.9867975000000029,
+      "load_kwh": 1033.542,
+      "pv_kwh": 92.345,
+      "last_day_cost": 1.0183038000000033,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3812255641678348,
+          "median": 0.0002654170384630561,
+          "p95": 0.00029027505079284307
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.019435686990618706,
+          "median": 1.3040960766375065e-05,
+          "p95": 1.5874981181696056e-05
+        },
+        "total": 0.44247120898216963
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.1051576320753043e-13,
+      "segments_checked": 1466,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "b0bff736b24cf23e746dabfe5f0dfb43937d6304f3a59846431afef24188d127"
+  },
+  {
+    "case_id": "A286_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2047059170436114,
+    "mip_gap": 0.0,
+    "dual_bound": 75.3747038,
+    "primal_objective": 75.3747038,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A286_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 78.02451947368432,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 78.02451947368432,
+      "shadow_cost": 93.97213194999995,
+      "shadow_final_soc": 0.0,
+      "regret": -15.947612476315626,
+      "terminal_difference": -15.947612476315626,
+      "efc": 18.223999999999997,
+      "peak_kw": 11.026,
+      "import_kwh": 969.2523684210528,
+      "charge_ac_kwh": 287.7473684210526,
+      "discharge_ac_kwh": 259.69199999999995,
+      "curtailment_kwh": 1.8049797767538678e-15,
+      "loss_kwh": 28.055368421052627,
+      "load_kwh": 1033.542,
+      "pv_kwh": 92.345,
+      "last_day_cost": 1.4153971052631609,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.385605133487843,
+          "median": 0.00026475050253793597,
+          "p95": 0.00028691813349723816
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.019776999950408936,
+          "median": 1.3333046808838844e-05,
+          "p95": 1.5169096877798437e-05
+        },
+        "total": 0.4480449999682605
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.1051576320753043e-13,
+      "segments_checked": 1466,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "4ea11bd06eb348e1c91c2542541bbb52fdd45a1b0c15fab36d7f4f09110ba016"
+  },
+  {
+    "case_id": "A286_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.3285081669455394,
+    "mip_gap": 0.0,
+    "dual_bound": 77.78037861495845,
+    "primal_objective": 77.78037861495845,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 3.3306690738754696e-14
+  },
+  {
+    "case_id": "A286_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 10.156652442382255,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 10.156652442382255,
+      "shadow_cost": 25.159631359695204,
+      "shadow_final_soc": 0.0,
+      "regret": -15.00297891731295,
+      "terminal_difference": -15.00297891731295,
+      "efc": 32.14471298245612,
+      "peak_kw": 7.612,
+      "import_kwh": 997.045585152354,
+      "charge_ac_kwh": 507.5480997229914,
+      "discharge_ac_kwh": 458.0621599999997,
+      "curtailment_kwh": 6.362645429362841,
+      "loss_kwh": 49.48593972299166,
+      "load_kwh": 1033.542,
+      "pv_kwh": 92.345,
+      "last_day_cost": -0.45457956121883597,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3747695368947461,
+          "median": 0.0002592080272734165,
+          "p95": 0.00028255656361579894
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020836254814639688,
+          "median": 1.366704236716032e-05,
+          "p95": 2.0752038108184933e-05
+        },
+        "total": 0.44008112500887364
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.424727085781342e-13,
+      "segments_checked": 1501,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "98d3f0137f4669a950a2e1c864e027394895f45c29648fb50a83f4bdb6985899"
+  },
+  {
+    "case_id": "A286_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.010564750060439,
+    "mip_gap": 9.138929314873065e-05,
+    "dual_bound": 10.15237012136678,
+    "primal_objective": 10.153298024096328,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.4929519842610262e-09
+  },
+  {
+    "case_id": "A290_20120701",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 47.8256376,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 47.8256376,
+      "shadow_cost": 47.825637600000015,
+      "shadow_final_soc": 0.0,
+      "regret": -1.4210854715202004e-14,
+      "terminal_difference": -1.4210854715202004e-14,
+      "efc": 0.67716,
+      "peak_kw": 5.359999999999999,
+      "import_kwh": 597.8204699999999,
+      "charge_ac_kwh": 10.691999999999998,
+      "discharge_ac_kwh": 9.649529999999999,
+      "curtailment_kwh": 1.1596626436904955e-14,
+      "loss_kwh": 1.0424699999999998,
+      "load_kwh": 658.831,
+      "pv_kwh": 62.053,
+      "last_day_cost": 0.3447301999999959,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.382233451702632,
+          "median": 0.0002645410131663084,
+          "p95": 0.0002921354433055967
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.01972762495279312,
+          "median": 1.3291952200233936e-05,
+          "p95": 1.5333062037825584e-05
+        },
+        "total": 0.44462529197335243
+      }
+    },
+    "audit": {
+      "independent_max_residual": 5.684341886080802e-14,
+      "segments_checked": 1470,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "64411c8c573fbf8cf1c5e138bfd505c7584b4d4aff3e77c46cb9bdeaaeb3ae05"
+  },
+  {
+    "case_id": "A290_20120701",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.22536516608670354,
+    "mip_gap": 0.0,
+    "dual_bound": 47.8256376,
+    "primal_objective": 47.8256376,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.1102230246251565e-16
+  },
+  {
+    "case_id": "A290_20120701",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 49.065371236842125,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 49.065371236842125,
+      "shadow_cost": 56.30477172500003,
+      "shadow_final_soc": 0.0,
+      "regret": -7.239400488157905,
+      "terminal_difference": -7.239400488157905,
+      "efc": 8.410013333333332,
+      "peak_kw": 8.898,
+      "import_kwh": 609.7249942105262,
+      "charge_ac_kwh": 132.7896842105263,
+      "discharge_ac_kwh": 119.84268999999999,
+      "curtailment_kwh": 4.9439619065339e-17,
+      "loss_kwh": 12.946994210526315,
+      "load_kwh": 658.831,
+      "pv_kwh": 62.053,
+      "last_day_cost": 0.8649860526315709,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.38737126102205366,
+          "median": 0.00026999996043741703,
+          "p95": 0.00029283506446518
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020285006263293326,
+          "median": 1.3625016435980797e-05,
+          "p95": 1.5669106505811212e-05
+        },
+        "total": 0.45149554207455367
+      }
+    },
+    "audit": {
+      "independent_max_residual": 5.684341886080802e-14,
+      "segments_checked": 1470,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "e6313ebf226c99d43db3011b682426474ee0ed51ec4bb1b19d6d37cfa84e0c05"
+  },
+  {
+    "case_id": "A290_20120701",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2678938331082463,
+    "mip_gap": 0.0,
+    "dual_bound": 48.81348033240997,
+    "primal_objective": 48.81348033240997,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.2351231148954867e-15
+  },
+  {
+    "case_id": "A290_20120701",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -14.695520572576187,
+      "final_soc": 6.729876315789477,
+      "initial_soc": 0.0,
+      "objective": -14.695520572576187,
+      "shadow_cost": -12.801512847160653,
+      "shadow_final_soc": 6.729876315789476,
+      "regret": -1.894007725415534,
+      "terminal_difference": -1.894007725415534,
+      "efc": 30.562208333333327,
+      "peak_kw": 9.022,
+      "import_kwh": 659.6858149515235,
+      "charge_ac_kwh": 486.1032243767312,
+      "discharge_ac_kwh": 432.3147774999999,
+      "curtailment_kwh": 9.119368074792277,
+      "loss_kwh": 47.05857056094181,
+      "load_kwh": 658.831,
+      "pv_kwh": 62.053,
+      "last_day_cost": -0.8556953739612182,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3739621991990134,
+          "median": 0.0002574580139480531,
+          "p95": 0.000291304150596261
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021285938331857324,
+          "median": 1.3874960131943226e-05,
+          "p95": 2.064160653389989e-05
+        },
+        "total": 0.44002108299173415
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.8044233602031454e-13,
+      "segments_checked": 1497,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "c1aabc7ac4668bedea69bfe1f49aa64c058b8e36258cb436ee769ffbda0ebf94"
+  },
+  {
+    "case_id": "A290_20120701",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.012080332962796,
+    "mip_gap": 0.0001607818313372596,
+    "dual_bound": -14.763483510018943,
+    "primal_objective": -14.76111019168975,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 5.771329603676084e-14
+  },
+  {
+    "case_id": "A039_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 32.90868359999997,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 32.90868359999997,
+      "shadow_cost": 32.90868359999994,
+      "shadow_final_soc": 0.0,
+      "regret": 2.842170943040401e-14,
+      "terminal_difference": 2.842170943040401e-14,
+      "efc": 1.5112599999999994,
+      "peak_kw": 4.938,
+      "import_kwh": 411.3585449999998,
+      "charge_ac_kwh": 23.86199999999999,
+      "discharge_ac_kwh": 21.53545499999999,
+      "curtailment_kwh": 3.3472139990275984e-14,
+      "loss_kwh": 2.3265449999999985,
+      "load_kwh": 550.853,
+      "pv_kwh": 141.821,
+      "last_day_cost": 0.23289940000000187,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.41388351295609027,
+          "median": 0.00027316599152982235,
+          "p95": 0.0003232600342016667
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.022079520509578288,
+          "median": 1.391698606312275e-05,
+          "p95": 2.780351787805556e-05
+        },
+        "total": 0.4827160839922726
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.0675488271161271e-13,
+      "segments_checked": 1496,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "072f54b98cf271c809b66a734a81994c2014d3e72164232311a5f658899be8a5"
+  },
+  {
+    "case_id": "A039_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.1708898750366643,
+    "mip_gap": 0.0,
+    "dual_bound": 32.9086836,
+    "primal_objective": 32.9086836,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A039_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 34.05479776315788,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 34.05479776315788,
+      "shadow_cost": 41.012731824999946,
+      "shadow_final_soc": 0.0,
+      "regret": -6.957934061842067,
+      "terminal_difference": -6.957934061842067,
+      "efc": 8.774599999999998,
+      "peak_kw": 9.836,
+      "import_kwh": 422.5402657894735,
+      "charge_ac_kwh": 138.54631578947365,
+      "discharge_ac_kwh": 125.03804999999996,
+      "curtailment_kwh": 7.126244039312724e-15,
+      "loss_kwh": 13.508265789473679,
+      "load_kwh": 550.853,
+      "pv_kwh": 141.821,
+      "last_day_cost": 0.6260547368421086,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.40812461357563734,
+          "median": 0.000276917009614408,
+          "p95": 0.00030629817047156394
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02219117572531104,
+          "median": 1.4499993994832039e-05,
+          "p95": 2.1520897280424814e-05
+        },
+        "total": 0.4767260419903323
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.0675488271161271e-13,
+      "segments_checked": 1496,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "49a3b799eb873515223f3302b3f34854b2a81f852c119dbe4b2715afd95f4c34"
+  },
+  {
+    "case_id": "A039_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.21869262505788356,
+    "mip_gap": 0.0,
+    "dual_bound": 33.943744044321335,
+    "primal_objective": 33.94374404432133,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 4.457456420574081e-14
+  },
+  {
+    "case_id": "A039_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -22.882608803878128,
+      "final_soc": 9.946878947368425,
+      "initial_soc": 0.0,
+      "objective": -22.882608803878128,
+      "shadow_cost": -16.85143372631578,
+      "shadow_final_soc": 9.946878947368424,
+      "regret": -6.031175077562349,
+      "terminal_difference": -6.031175077562349,
+      "efc": 29.598140000000015,
+      "peak_kw": 9.870000000000001,
+      "import_kwh": 555.8289245775626,
+      "charge_ac_kwh": 472.5742520775627,
+      "discharge_ac_kwh": 417.04872750000015,
+      "curtailment_kwh": 91.2714000000001,
+      "loss_kwh": 45.578645630193925,
+      "load_kwh": 550.853,
+      "pv_kwh": 141.821,
+      "last_day_cost": -0.8852042382271457,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3731100882869214,
+          "median": 0.0002575409598648548,
+          "p95": 0.0002806753269396722
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020791005226783454,
+          "median": 1.3875076547265053e-05,
+          "p95": 1.6583013348281384e-05
+        },
+        "total": 0.4381426249165088
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.7611246622427643e-13,
+      "segments_checked": 1478,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "322e8854097e6608f4e60fd84312631c8fc79bea9d5e53cc8f4381445fa49c90"
+  },
+  {
+    "case_id": "A039_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.012194250011817,
+    "mip_gap": 0.00010841405790273112,
+    "dual_bound": -23.089868911091795,
+    "primal_objective": -23.08736591606655,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.6992185436492946e-11
+  },
+  {
+    "case_id": "A049_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 46.127780400000034,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 46.127780400000034,
+      "shadow_cost": 46.127780400000056,
+      "shadow_final_soc": 0.0,
+      "regret": -2.1316282072803006e-14,
+      "terminal_difference": -2.1316282072803006e-14,
+      "efc": 1.077806666666667,
+      "peak_kw": 7.602,
+      "import_kwh": 576.5972549999998,
+      "charge_ac_kwh": 17.018000000000004,
+      "discharge_ac_kwh": 15.358745000000003,
+      "curtailment_kwh": 1.7339428504126175e-14,
+      "loss_kwh": 1.6592550000000001,
+      "load_kwh": 707.27,
+      "pv_kwh": 132.332,
+      "last_day_cost": 0.07106119999999878,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4800374034093693,
+          "median": 0.00032452051527798176,
+          "p95": 0.00043095419532619385
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.026514090364798903,
+          "median": 1.7000013031065464e-05,
+          "p95": 3.0754203908145425e-05
+        },
+        "total": 0.5613979999907315
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.6978419498391304e-13,
+      "segments_checked": 1475,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "229598fdde43f56cb819962efbb979142d5cf95e3fe31fc75030786aa55abee3"
+  },
+  {
+    "case_id": "A049_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2101141670718789,
+    "mip_gap": 0.0,
+    "dual_bound": 46.127780400000006,
+    "primal_objective": 46.1277804,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 4.440892098500626e-16
+  },
+  {
+    "case_id": "A049_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 49.848981123614955,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 49.848981123614955,
+      "shadow_cost": 59.70521157500005,
+      "shadow_final_soc": 0.0,
+      "regret": -9.856230451385095,
+      "terminal_difference": -9.856230451385095,
+      "efc": 11.728874561403508,
+      "peak_kw": 10.482,
+      "import_kwh": 592.9942937326869,
+      "charge_ac_kwh": 185.19275623268697,
+      "discharge_ac_kwh": 167.1364625,
+      "curtailment_kwh": 5.470450481492861e-15,
+      "loss_kwh": 18.056293732686978,
+      "load_kwh": 707.27,
+      "pv_kwh": 132.332,
+      "last_day_cost": 0.4607489473684201,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.5978455679723993,
+          "median": 0.00038556248182430863,
+          "p95": 0.0005752564757131036
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.03325769118964672,
+          "median": 2.058397512882948e-05,
+          "p95": 3.8847606629133214e-05
+        },
+        "total": 0.7007694999920204
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.6978419498391304e-13,
+      "segments_checked": 1475,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "ade762c0f72d9e056dbcb45a494d2f57b2729cc6a2b72fdf1e6270f0c2551a39"
+  },
+  {
+    "case_id": "A049_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.4427641669753939,
+    "mip_gap": 0.0,
+    "dual_bound": 49.7369096398892,
+    "primal_objective": 49.7369096398892,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 4.773959005888173e-15
+  },
+  {
+    "case_id": "A049_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -4.156990317451552,
+      "final_soc": 9.917615789473686,
+      "initial_soc": 0.0,
+      "objective": -4.156990317451552,
+      "shadow_cost": 4.6095167435595386,
+      "shadow_final_soc": 9.917615789473686,
+      "regret": -8.76650706101109,
+      "terminal_difference": -8.76650706101109,
+      "efc": 27.787015964912268,
+      "peak_kw": 8.734,
+      "import_kwh": 688.0597867174512,
+      "charge_ac_kwh": 443.96215512465363,
+      "discharge_ac_kwh": 391.25410999999974,
+      "curtailment_kwh": 60.413741592797734,
+      "loss_kwh": 42.790429335180036,
+      "load_kwh": 707.27,
+      "pv_kwh": 132.332,
+      "last_day_cost": -0.8261138504155122,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4192625905852765,
+          "median": 0.00028685404686257243,
+          "p95": 0.00032488955184817314
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.023506238823756576,
+          "median": 1.5458965208381414e-05,
+          "p95": 2.151879016309975e-05
+        },
+        "total": 0.49275866604875773
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.3300805729320473e-13,
+      "segments_checked": 1488,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "1f8b56d1ba2f662acd4f9a4d371ffaaf57a42c8ffa4a845ddbec0dfe8fec8ad2"
+  },
+  {
+    "case_id": "A049_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.021107250009663,
+    "mip_gap": 0.0010600030527314925,
+    "dual_bound": -4.200141074922609,
+    "primal_objective": -4.195693626869803,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 7.170120171175518e-13
+  },
+  {
+    "case_id": "A051_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 29.96364280000001,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 29.96364280000001,
+      "shadow_cost": 29.963642799999977,
+      "shadow_final_soc": 0.0,
+      "regret": 3.197442310920451e-14,
+      "terminal_difference": 3.197442310920451e-14,
+      "efc": 4.20698,
+      "peak_kw": 6.13,
+      "import_kwh": 374.545535,
+      "charge_ac_kwh": 66.426,
+      "discharge_ac_kwh": 59.94946499999999,
+      "curtailment_kwh": 4.344788417931511e-14,
+      "loss_kwh": 6.476534999999999,
+      "load_kwh": 548.072,
+      "pv_kwh": 180.003,
+      "last_day_cost": 0.708707800000003,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.6112276340136304,
+          "median": 0.00041708291973918676,
+          "p95": 0.0005357559362892061
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.034331660135649145,
+          "median": 2.1915999241173267e-05,
+          "p95": 3.5499926889315246e-05
+        },
+        "total": 0.7165725419763476
+      }
+    },
+    "audit": {
+      "independent_max_residual": 4.141131881851834e-14,
+      "segments_checked": 1478,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "696389579d327ce9a91e88874bc30c8ed89a9a27ec7d44513a5da8306e7769a3"
+  },
+  {
+    "case_id": "A051_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.23374900000635535,
+    "mip_gap": 2.371349640305084e-16,
+    "dual_bound": 29.963642799999995,
+    "primal_objective": 29.963642800000002,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A051_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 30.575009306786693,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 30.575009306786693,
+      "shadow_cost": 35.915004125000024,
+      "shadow_final_soc": 0.0,
+      "regret": -5.339994818213331,
+      "terminal_difference": -5.339994818213331,
+      "efc": 8.615169649122807,
+      "peak_kw": 7.666,
+      "import_kwh": 381.33182695983373,
+      "charge_ac_kwh": 136.0289944598338,
+      "discharge_ac_kwh": 122.7661675,
+      "curtailment_kwh": 2.1524448889920222e-14,
+      "loss_kwh": 13.262826959833795,
+      "load_kwh": 548.072,
+      "pv_kwh": 180.003,
+      "last_day_cost": 0.9869339276315817,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.49346980021800846,
+          "median": 0.00033070851350203156,
+          "p95": 0.0003929264785256237
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02722599927801639,
+          "median": 1.7666956409811974e-05,
+          "p95": 2.588118659332394e-05
+        },
+        "total": 0.577836332959123
+      }
+    },
+    "audit": {
+      "independent_max_residual": 4.141131881851834e-14,
+      "segments_checked": 1478,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "f686d8e91a26f0dcbd8880a788dd70e40dd94f2883aeb235c0cf3ca31cff7802"
+  },
+  {
+    "case_id": "A051_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.35194862505886704,
+    "mip_gap": 1.1673694266005621e-16,
+    "dual_bound": 30.433499437673127,
+    "primal_objective": 30.43349943767313,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.0702549957386509e-13
+  },
+  {
+    "case_id": "A051_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -13.455871555955683,
+      "final_soc": 3.9938131578947393,
+      "initial_soc": 0.0,
+      "objective": -13.455871555955683,
+      "shadow_cost": -7.032147568698055,
+      "shadow_final_soc": 3.9938131578947393,
+      "regret": -6.423723987257628,
+      "terminal_difference": -6.423723987257628,
+      "efc": 25.899155350877194,
+      "peak_kw": 8.7,
+      "import_kwh": 524.3772346191137,
+      "charge_ac_kwh": 411.0360387811635,
+      "discharge_ac_kwh": 367.1659024999999,
+      "curtailment_kwh": 112.4380983379501,
+      "loss_kwh": 39.87632312326869,
+      "load_kwh": 548.072,
+      "pv_kwh": 180.003,
+      "last_day_cost": -0.827863850415512,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.44350503967143595,
+          "median": 0.0003086460055783391,
+          "p95": 0.0003500544000416994
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.025764045887626708,
+          "median": 1.6832957044243813e-05,
+          "p95": 2.433809568174183e-05
+        },
+        "total": 0.5238167090574279
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.9961809982760315e-13,
+      "segments_checked": 1497,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "7b485fee0ffa2b6465950825deb8acc4e055463d81fee23ba2cc106324f8b2d2"
+  },
+  {
+    "case_id": "A051_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.014313457999378,
+    "mip_gap": 0.0004246189006206953,
+    "dual_bound": -13.616123002016149,
+    "primal_objective": -13.610343792797782,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 6.616929226765933e-13
+  },
+  {
+    "case_id": "A125_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 46.42062439999993,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 46.42062439999993,
+      "shadow_cost": 46.42062439999996,
+      "shadow_final_soc": 0.0,
+      "regret": -2.842170943040401e-14,
+      "terminal_difference": -2.842170943040401e-14,
+      "efc": 3.723873333333333,
+      "peak_kw": 4.524,
+      "import_kwh": 580.257805,
+      "charge_ac_kwh": 58.798,
+      "discharge_ac_kwh": 53.065194999999996,
+      "curtailment_kwh": 4.306581133373122e-14,
+      "loss_kwh": 5.732804999999999,
+      "load_kwh": 830.577,
+      "pv_kwh": 256.052,
+      "last_day_cost": 0.24537219999999807,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4200343721313402,
+          "median": 0.00028370850486680865,
+          "p95": 0.00032151039922609923
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.0217711926670745,
+          "median": 1.4457968063652515e-05,
+          "p95": 1.8918962450698017e-05
+        },
+        "total": 0.48774179199244827
+      }
+    },
+    "audit": {
+      "independent_max_residual": 6.722400414105323e-14,
+      "segments_checked": 1469,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "558a47f6484f806ff2d71c367c0dcc13a6e089cdcfa950a127ee7b1bd1052d6d"
+  },
+  {
+    "case_id": "A125_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.17562933405861259,
+    "mip_gap": 4.591985210953562e-16,
+    "dual_bound": 46.42062439999998,
+    "primal_objective": 46.4206244,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A125_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 47.16377825692518,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 47.16377825692518,
+      "shadow_cost": 52.047639674999935,
+      "shadow_final_soc": 0.0,
+      "regret": -4.883861418074758,
+      "terminal_difference": -4.883861418074758,
+      "efc": 8.580350526315788,
+      "peak_kw": 6.926,
+      "import_kwh": 587.734223836565,
+      "charge_ac_kwh": 135.47921883656508,
+      "discharge_ac_kwh": 122.26999499999998,
+      "curtailment_kwh": 1.1496879837036289e-14,
+      "loss_kwh": 13.209223836565094,
+      "load_kwh": 830.577,
+      "pv_kwh": 256.052,
+      "last_day_cost": 1.2693915789473649,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.40105257695540786,
+          "median": 0.000272250035777688,
+          "p95": 0.00031547437538392836
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021927182096987963,
+          "median": 1.3915938325226307e-05,
+          "p95": 2.0391552243381722e-05
+        },
+        "total": 0.4716762910829857
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.376676550535194e-13,
+      "segments_checked": 1469,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "9b2fd04c061e0b3a703222658e980e9dbc051c8091913b6eff6d83923bb19617"
+  },
+  {
+    "case_id": "A125_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.39270579209551215,
+    "mip_gap": 9.063691438030078e-16,
+    "dual_bound": 47.03664554016616,
+    "primal_objective": 47.036645540166205,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.1316282072803006e-14
+  },
+  {
+    "case_id": "A125_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -23.7662015947368,
+      "final_soc": 3.2648526315789463,
+      "initial_soc": 0.0,
+      "objective": -23.7662015947368,
+      "shadow_cost": -19.789056854432122,
+      "shadow_final_soc": 3.2648526315789437,
+      "regret": -3.977144740304677,
+      "terminal_difference": -3.977144740304677,
+      "efc": 35.7861807017544,
+      "peak_kw": 7.212,
+      "import_kwh": 678.4569553947371,
+      "charge_ac_kwh": 566.7633019390585,
+      "discharge_ac_kwh": 508.40227000000016,
+      "curtailment_kwh": 45.57092345567875,
+      "loss_kwh": 55.09617930747924,
+      "load_kwh": 830.577,
+      "pv_kwh": 256.052,
+      "last_day_cost": -0.9866468421052639,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.39768217189703137,
+          "median": 0.0002699169563129544,
+          "p95": 0.00031071226694621144
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.022371925180777907,
+          "median": 1.4542019926011562e-05,
+          "p95": 2.1823268616571993e-05
+        },
+        "total": 0.468107583001256
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.9351187319216478e-13,
+      "segments_checked": 1484,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "172784dec13a95480fab89159582daad47883eb24c55b9ed25334121735567c8"
+  },
+  {
+    "case_id": "A125_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.013481166912243,
+    "mip_gap": 0.0004124567634011773,
+    "dual_bound": -23.993846637813085,
+    "primal_objective": -23.983954293651568,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.0542223805032336e-07
+  },
+  {
+    "case_id": "A178_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 14.375645799999992,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 14.375645799999992,
+      "shadow_cost": 14.375645799999994,
+      "shadow_final_soc": 0.0,
+      "regret": -1.7763568394002505e-15,
+      "terminal_difference": -1.7763568394002505e-15,
+      "efc": 2.9520299999999997,
+      "peak_kw": 3.8059999999999468,
+      "import_kwh": 179.6955724999999,
+      "charge_ac_kwh": 46.611,
+      "discharge_ac_kwh": 42.066427499999996,
+      "curtailment_kwh": 3.0585776966685074e-14,
+      "loss_kwh": 4.544572499999999,
+      "load_kwh": 304.923,
+      "pv_kwh": 129.772,
+      "last_day_cost": 0.08370639999999775,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.39849997847341,
+          "median": 0.0002742289798334241,
+          "p95": 0.00030484345043078063
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02185058267787099,
+          "median": 1.4499993994832039e-05,
+          "p95": 1.8254230963066216e-05
+        },
+        "total": 0.4656123749446124
+      }
+    },
+    "audit": {
+      "independent_max_residual": 6.128431095930864e-14,
+      "segments_checked": 1480,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "fd12d91717f36613d578b460562a8b2b0d1b3cd49bf6e6cc4ec30486eaf4a59a"
+  },
+  {
+    "case_id": "A178_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.16548579093068838,
+    "mip_gap": 0.0,
+    "dual_bound": 14.375645800000001,
+    "primal_objective": 14.3756458,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 5.551115123125783e-17
+  },
+  {
+    "case_id": "A178_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 14.978565065096928,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 14.978565065096928,
+      "shadow_cost": 19.008582849999982,
+      "shadow_final_soc": 0.0,
+      "regret": -4.030017784903054,
+      "terminal_difference": -4.030017784903054,
+      "efc": 6.827298947368421,
+      "peak_kw": 8.606,
+      "import_kwh": 185.6614470637118,
+      "charge_ac_kwh": 107.79945706371191,
+      "discharge_ac_kwh": 97.28900999999999,
+      "curtailment_kwh": 9.41824743194708e-15,
+      "loss_kwh": 10.51044706371191,
+      "load_kwh": 304.923,
+      "pv_kwh": 129.772,
+      "last_day_cost": 0.3020309802631535,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.38408105622511357,
+          "median": 0.000263167021330446,
+          "p95": 0.00029491818859241905
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02092362055554986,
+          "median": 1.3875076547265053e-05,
+          "p95": 1.7960096010938285e-05
+        },
+        "total": 0.44893679092638195
+      }
+    },
+    "audit": {
+      "independent_max_residual": 6.128431095930864e-14,
+      "segments_checked": 1480,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "b6f37f2ba84ba137af0d6013b9c7977611c69b629da14dacc9005f88ec96cb76"
+  },
+  {
+    "case_id": "A178_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2823533749906346,
+    "mip_gap": 0.0,
+    "dual_bound": 14.868429252077561,
+    "primal_objective": 14.868429252077561,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.6645352591003757e-15
+  },
+  {
+    "case_id": "A178_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -17.107013310249318,
+      "final_soc": 10.79754736842105,
+      "initial_soc": 0.0,
+      "objective": -17.107013310249318,
+      "shadow_cost": -11.347942908587253,
+      "shadow_final_soc": 10.79754736842105,
+      "regret": -5.759070401662065,
+      "terminal_difference": -5.759070401662065,
+      "efc": 20.788865614035096,
+      "peak_kw": 5.482,
+      "import_kwh": 343.7496662049862,
+      "charge_ac_kwh": 333.9281662049864,
+      "discharge_ac_kwh": 291.11250000000007,
+      "curtailment_kwh": 125.78299999999984,
+      "loss_kwh": 32.018118836565115,
+      "load_kwh": 304.923,
+      "pv_kwh": 129.772,
+      "last_day_cost": -0.41583531855955636,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37435749103315175,
+          "median": 0.0002541455323807895,
+          "p95": 0.00028029578388668593
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021100671030580997,
+          "median": 1.3959011994302273e-05,
+          "p95": 1.933607272803783e-05
+        },
+        "total": 0.44037129101343453
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.0028423364237824e-13,
+      "segments_checked": 1487,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "ccc11a5245e223724c8b3e9e1953b6e771faaedefc759d989e163c1b5048c1a3"
+  },
+  {
+    "case_id": "A178_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.017409584019333,
+    "mip_gap": 8.536882207953807e-05,
+    "dual_bound": -17.17652006453188,
+    "primal_objective": -17.175053850415512,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.1723955140041653e-13
+  },
+  {
+    "case_id": "A225_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 31.27605539999999,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 31.27605539999999,
+      "shadow_cost": 31.276055399999997,
+      "shadow_final_soc": 0.0,
+      "regret": -7.105427357601002e-15,
+      "terminal_difference": -7.105427357601002e-15,
+      "efc": 1.636723333333333,
+      "peak_kw": 6.204,
+      "import_kwh": 390.9506925,
+      "charge_ac_kwh": 25.843,
+      "discharge_ac_kwh": 23.323307499999995,
+      "curtailment_kwh": 3.3094403953382034e-14,
+      "loss_kwh": 2.5196924999999997,
+      "load_kwh": 507.91,
+      "pv_kwh": 119.479,
+      "last_day_cost": 0.29717540000000325,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.39487038482911885,
+          "median": 0.0002679164754226804,
+          "p95": 0.00030396641814149915
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020598303293809295,
+          "median": 1.3709068298339844e-05,
+          "p95": 1.7046189168468114e-05
+        },
+        "total": 0.4586612090934068
+      }
+    },
+    "audit": {
+      "independent_max_residual": 9.883760476725456e-14,
+      "segments_checked": 1475,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "5661cff275c716e07b69a7211b5d1a13a4e032ace966d42c7b81abae173a30e1"
+  },
+  {
+    "case_id": "A225_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.16758849995676428,
+    "mip_gap": 0.0,
+    "dual_bound": 31.2760554,
+    "primal_objective": 31.2760554,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A225_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 32.04352809729915,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 32.04352809729915,
+      "shadow_cost": 36.847128774999945,
+      "shadow_final_soc": 0.0,
+      "regret": -4.803600677700793,
+      "terminal_difference": -4.803600677700793,
+      "efc": 6.736141228070173,
+      "peak_kw": 7.122,
+      "import_kwh": 398.8011121537396,
+      "charge_ac_kwh": 106.3601246537396,
+      "discharge_ac_kwh": 95.99001249999998,
+      "curtailment_kwh": 7.237266341775239e-15,
+      "loss_kwh": 10.37011215373961,
+      "load_kwh": 507.91,
+      "pv_kwh": 119.479,
+      "last_day_cost": 0.8228780723684268,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37903084815479815,
+          "median": 0.0002650835085660219,
+          "p95": 0.000292336056008935
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02060390217229724,
+          "median": 1.3750046491622925e-05,
+          "p95": 1.7208047211170197e-05
+        },
+        "total": 0.443368082982488
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.4444001550373287e-13,
+      "segments_checked": 1475,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "b12dea3570e568c489f7ced040801f2223fc271883aff9a9e7b8d8a5f20bc247"
+  },
+  {
+    "case_id": "A225_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.21257658302783966,
+    "mip_gap": 4.451840141467917e-16,
+    "dual_bound": 31.921305041551232,
+    "primal_objective": 31.921305041551246,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 3.774758283725532e-14
+  },
+  {
+    "case_id": "A225_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -21.879579755678648,
+      "final_soc": 5.764534210526315,
+      "initial_soc": 0.0,
+      "objective": -21.879579755678648,
+      "shadow_cost": -18.166173564542945,
+      "shadow_final_soc": 5.764534210526315,
+      "regret": -3.7134061911357037,
+      "terminal_difference": -3.7134061911357037,
+      "efc": 29.167077456140326,
+      "peak_kw": 5.954,
+      "import_kwh": 513.2256341135734,
+      "charge_ac_kwh": 463.56676731301906,
+      "discharge_ac_kwh": 412.8926999999996,
+      "curtailment_kwh": 74.12056680055389,
+      "loss_kwh": 44.909533102493036,
+      "load_kwh": 507.91,
+      "pv_kwh": 119.479,
+      "last_day_cost": -0.8816684210526315,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3812724427552894,
+          "median": 0.0002595834666863084,
+          "p95": 0.0002873014600481838
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02103278087452054,
+          "median": 1.3999990187585354e-05,
+          "p95": 1.77919864654541e-05
+        },
+        "total": 0.4474699170095846
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.7478019859472624e-13,
+      "segments_checked": 1483,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "bac34b101f0a8de577eb82a1293162b2a19e621895e56fdd31673f17c10d7d99"
+  },
+  {
+    "case_id": "A225_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.011247082962655,
+    "mip_gap": 0.00013622722987651487,
+    "dual_bound": -22.060095757844152,
+    "primal_objective": -22.057090981440613,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.269873095566254e-11
+  },
+  {
+    "case_id": "A235_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 10.32661099999998,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 10.32661099999998,
+      "shadow_cost": 10.326610999999993,
+      "shadow_final_soc": 0.0,
+      "regret": -1.2434497875801753e-14,
+      "terminal_difference": -1.2434497875801753e-14,
+      "efc": 3.771183333333333,
+      "peak_kw": 3.8520000000000003,
+      "import_kwh": 129.08263749999992,
+      "charge_ac_kwh": 59.545,
+      "discharge_ac_kwh": 53.73936249999999,
+      "curtailment_kwh": 2.0077689510955565e-14,
+      "loss_kwh": 5.8056375,
+      "load_kwh": 242.762,
+      "pv_kwh": 119.485,
+      "last_day_cost": 0.2658709999999993,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3666682535549626,
+          "median": 0.0002529170014895499,
+          "p95": 0.00027615838334895667
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020230005378834903,
+          "median": 1.3416458386927843e-05,
+          "p95": 1.7458037473261356e-05
+        },
+        "total": 0.4290529160061851
+      }
+    },
+    "audit": {
+      "independent_max_residual": 6.500355809180292e-14,
+      "segments_checked": 1484,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "b5002f7e68d5283d909d795de597b1716169d8e0593f59a103f990bb5388f4ec"
+  },
+  {
+    "case_id": "A235_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.16032833408098668,
+    "mip_gap": 0.0,
+    "dual_bound": 10.326611,
+    "primal_objective": 10.326611,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.1102230246251565e-16
+  },
+  {
+    "case_id": "A235_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 10.54055459099721,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 10.54055459099721,
+      "shadow_cost": 12.58998837499998,
+      "shadow_final_soc": 0.0,
+      "regret": -2.049433784002769,
+      "terminal_difference": -2.049433784002769,
+      "efc": 4.990629649122806,
+      "peak_kw": 5.526,
+      "import_kwh": 130.9599430124653,
+      "charge_ac_kwh": 78.79941551246536,
+      "discharge_ac_kwh": 71.11647249999999,
+      "curtailment_kwh": 1.3940454693384119e-14,
+      "loss_kwh": 7.682943012465372,
+      "load_kwh": 242.762,
+      "pv_kwh": 119.485,
+      "last_day_cost": 0.46389824999999973,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37370394566096365,
+          "median": 0.00025520898634567857,
+          "p95": 0.000280544109409675
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.020555786788463593,
+          "median": 1.3666460290551186e-05,
+          "p95": 1.709225471131503e-05
+        },
+        "total": 0.4380172920646146
+      }
+    },
+    "audit": {
+      "independent_max_residual": 6.500355809180292e-14,
+      "segments_checked": 1484,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "f32d10cdfca33ad1c25f325eaca310f52524c3222f8240d38d9ec9007cc1cc62"
+  },
+  {
+    "case_id": "A235_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.3236855410505086,
+    "mip_gap": 0.0,
+    "dual_bound": 10.383735844875346,
+    "primal_objective": 10.383735844875346,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.7763568394002505e-15
+  },
+  {
+    "case_id": "A235_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -13.227629762603891,
+      "final_soc": 11.125263157894736,
+      "initial_soc": 0.0,
+      "objective": -13.227629762603891,
+      "shadow_cost": -9.383635974515252,
+      "shadow_final_soc": 11.125263157894734,
+      "regret": -3.843993788088639,
+      "terminal_difference": -3.843993788088639,
+      "efc": 16.301525263157906,
+      "peak_kw": 7.168,
+      "import_kwh": 271.779334252078,
+      "charge_ac_kwh": 263.2479058171748,
+      "discharge_ac_kwh": 227.0122350000001,
+      "curtailment_kwh": 112.26666343490281,
+      "loss_kwh": 25.110407659279797,
+      "load_kwh": 242.762,
+      "pv_kwh": 119.485,
+      "last_day_cost": -0.5008869806094212,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.37140990258194506,
+          "median": 0.00025579193606972694,
+          "p95": 0.00027651040581986306
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021512937382794917,
+          "median": 1.3999990187585354e-05,
+          "p95": 2.7256278553977605e-05
+        },
+        "total": 0.43784004205372185
+      }
+    },
+    "audit": {
+      "independent_max_residual": 5.302425165609748e-13,
+      "segments_checked": 1512,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "ac82ac4da9dbd354627121f86908130937f9b23570a5b629483c1037fcf14f69"
+  },
+  {
+    "case_id": "A235_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.01110291609075,
+    "mip_gap": 2.17709073880902e-05,
+    "dual_bound": -13.25158416253744,
+    "primal_objective": -13.251295669806641,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 5.235323286001403e-11
+  },
+  {
+    "case_id": "A245_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 7.360701599999991,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 7.360701599999991,
+      "shadow_cost": 7.360530599999985,
+      "shadow_final_soc": 0.0,
+      "regret": 0.00017100000000613846,
+      "terminal_difference": 0.00017100000000613846,
+      "efc": 9.35510385964912,
+      "peak_kw": 5.287999999999999,
+      "import_kwh": 92.00877,
+      "charge_ac_kwh": 147.71216620498615,
+      "discharge_ac_kwh": 133.31022999999993,
+      "curtailment_kwh": 27.120833795013898,
+      "loss_kwh": 14.401936204986146,
+      "load_kwh": 327.224,
+      "pv_kwh": 276.738,
+      "last_day_cost": 0.0633561999999631,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.36736677831504494,
+          "median": 0.00025154196191579103,
+          "p95": 0.00027818272355943917
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.019824390416033566,
+          "median": 1.333397813141346e-05,
+          "p95": 1.5919102588668464e-05
+        },
+        "total": 0.4294011249439791
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.7133850721838826e-13,
+      "segments_checked": 1463,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "f9ba98ade37055ba1813269b65dea1fba42946e95a32385d978ea4f58c1e5c62"
+  },
+  {
+    "case_id": "A245_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.2631770840380341,
+    "mip_gap": 9.653417319671222e-16,
+    "dual_bound": 7.3605305999999935,
+    "primal_objective": 7.360530600000001,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.0480505352461478e-13
+  },
+  {
+    "case_id": "A245_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 7.500710990581719,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 7.500710990581719,
+      "shadow_cost": 8.797825199999991,
+      "shadow_final_soc": 0.0,
+      "regret": -1.2971142094182726,
+      "terminal_difference": -1.2971142094182726,
+      "efc": 9.453910877192982,
+      "peak_kw": 5.356,
+      "import_kwh": 92.15851238227148,
+      "charge_ac_kwh": 149.27227700831025,
+      "discharge_ac_kwh": 134.71822999999995,
+      "curtailment_kwh": 27.11846537396127,
+      "loss_kwh": 14.554047008310246,
+      "load_kwh": 327.224,
+      "pv_kwh": 276.738,
+      "last_day_cost": 0.06335619999996316,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3648964180611074,
+          "median": 0.0002512704813852906,
+          "p95": 0.00027584655908867716
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.019913993193767965,
+          "median": 1.3499986380338669e-05,
+          "p95": 1.5458022244274616e-05
+        },
+        "total": 0.4276674169814214
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.7133850721838826e-13,
+      "segments_checked": 1463,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "d3b59cd2589d356845250bab06b732af4b86c90a62ea2a571f8ff597159ced2e"
+  },
+  {
+    "case_id": "A245_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.26598154206294566,
+    "mip_gap": 2.013013586826803e-15,
+    "dual_bound": 7.5007109905817035,
+    "primal_objective": 7.500710990581719,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.9939605522267811e-13
+  },
+  {
+    "case_id": "A245_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -12.575673905817156,
+      "final_soc": 10.062105263157893,
+      "initial_soc": 0.0,
+      "objective": -12.575673905817156,
+      "shadow_cost": -5.991468922437668,
+      "shadow_final_soc": 10.062105263157893,
+      "regret": -6.584204983379489,
+      "terminal_difference": -6.584204983379489,
+      "efc": 18.06517543859649,
+      "peak_kw": 8.082,
+      "import_kwh": 340.0866281163435,
+      "charge_ac_kwh": 290.535457063712,
+      "discharge_ac_kwh": 252.6492499999999,
+      "curtailment_kwh": 251.7144210526314,
+      "loss_kwh": 27.82410180055401,
+      "load_kwh": 327.224,
+      "pv_kwh": 276.738,
+      "last_day_cost": -0.7996313019390566,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.38210561126470566,
+          "median": 0.00025766697945073247,
+          "p95": 0.0002817645901814103
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021421784884296358,
+          "median": 1.4042016118764877e-05,
+          "p95": 2.05502554308623e-05
+        },
+        "total": 0.44901291700080037
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.65898414397725e-13,
+      "segments_checked": 1502,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "83723c76cc0da9b8176e9d2a0064a32a29d744e2e51d8488ccf581075cec1673"
+  },
+  {
+    "case_id": "A245_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.011073541943915,
+    "mip_gap": 0.00011987070595094503,
+    "dual_bound": -12.586123751087793,
+    "primal_objective": -12.584615224376726,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 8.43769498715119e-15
+  },
+  {
+    "case_id": "A286_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 45.95553299999997,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 45.95553299999997,
+      "shadow_cost": 45.95553299999997,
+      "shadow_final_soc": 0.0,
+      "regret": 0.0,
+      "terminal_difference": 0.0,
+      "efc": 0.46454999999999985,
+      "peak_kw": 6.324,
+      "import_kwh": 574.4441625,
+      "charge_ac_kwh": 7.334999999999998,
+      "discharge_ac_kwh": 6.619837499999998,
+      "curtailment_kwh": 7.73166253242863e-15,
+      "loss_kwh": 0.7151624999999998,
+      "load_kwh": 708.844,
+      "pv_kwh": 135.115,
+      "last_day_cost": 0.7845730000000002,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.5133990873582661,
+          "median": 0.00032268749782815576,
+          "p95": 0.0006937232334166764
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.026556745287962258,
+          "median": 1.625006552785635e-05,
+          "p95": 3.3048179466277355e-05
+        },
+        "total": 0.5989089579088613
+      }
+    },
+    "audit": {
+      "independent_max_residual": 3.265096526483546e-14,
+      "segments_checked": 1464,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "a6045f29471c194539f06be2fd8d32480d0288a7d7288c1dc9ba454c54499c3c"
+  },
+  {
+    "case_id": "A286_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.20778733305633068,
+    "mip_gap": 0.0,
+    "dual_bound": 45.955533,
+    "primal_objective": 45.955533,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.220446049250313e-16
+  },
+  {
+    "case_id": "A286_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 47.65844473684203,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 47.65844473684203,
+      "shadow_cost": 58.78574287500001,
+      "shadow_final_soc": 0.0,
+      "regret": -11.127298138157983,
+      "terminal_difference": -11.127298138157983,
+      "efc": 12.836,
+      "peak_kw": 8.358,
+      "import_kwh": 593.4896842105263,
+      "charge_ac_kwh": 202.67368421052632,
+      "discharge_ac_kwh": 182.91299999999998,
+      "curtailment_kwh": 8.275932023016352e-15,
+      "loss_kwh": 19.760684210526314,
+      "load_kwh": 708.844,
+      "pv_kwh": 135.115,
+      "last_day_cost": 0.9030463157894738,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.5260430192574859,
+          "median": 0.00035375001607462764,
+          "p95": 0.00043817289406433696
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.028223558561876416,
+          "median": 1.8249964341521263e-05,
+          "p95": 2.6999972760677338e-05
+        },
+        "total": 0.6137915420113131
+      }
+    },
+    "audit": {
+      "independent_max_residual": 3.265096526483546e-14,
+      "segments_checked": 1464,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "06af53f85439b168453f02604542ca3a9173dd7ab2eeab31cf5e73709c89679d"
+  },
+  {
+    "case_id": "A286_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.38015579199418426,
+    "mip_gap": 0.0,
+    "dual_bound": 47.5419271468144,
+    "primal_objective": 47.5419271468144,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 1.6914601263769457e-14
+  },
+  {
+    "case_id": "A286_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -19.78946794626035,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": -19.78946794626035,
+      "shadow_cost": -16.120372862396078,
+      "shadow_final_soc": 0.0,
+      "regret": -3.6690950838642706,
+      "terminal_difference": -3.6690950838642706,
+      "efc": 32.11038087719297,
+      "peak_kw": 6.812,
+      "import_kwh": 652.3275994252081,
+      "charge_ac_kwh": 507.00601385041546,
+      "discharge_ac_kwh": 457.5729274999999,
+      "curtailment_kwh": 29.16551307479223,
+      "loss_kwh": 49.4330863504155,
+      "load_kwh": 708.844,
+      "pv_kwh": 135.115,
+      "last_day_cost": -0.8496657047091413,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.4575187712907791,
+          "median": 0.00030952104134485126,
+          "p95": 0.0003753434575628489
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.025420164573006332,
+          "median": 1.637497916817665e-05,
+          "p95": 2.8082984499633312e-05
+        },
+        "total": 0.5367400000104681
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.9562129693895258e-13,
+      "segments_checked": 1492,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "e7f06a8166f9985d5e4373128dcdfcc16beca461fe5778c5068502a3d96a8f55"
+  },
+  {
+    "case_id": "A286_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.012043874943629,
+    "mip_gap": 0.00012057986646222547,
+    "dual_bound": -19.900480248385854,
+    "primal_objective": -19.8980809404432,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 2.6929569685307797e-12
+  },
+  {
+    "case_id": "A290_20130101",
+    "tariff": "flat",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 30.573074200000008,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 30.573074200000008,
+      "shadow_cost": 30.573074200000026,
+      "shadow_final_soc": 0.0,
+      "regret": -1.7763568394002505e-14,
+      "terminal_difference": -1.7763568394002505e-14,
+      "efc": 1.2533033333333337,
+      "peak_kw": 6.744000000000001,
+      "import_kwh": 382.1634275000002,
+      "charge_ac_kwh": 19.789000000000005,
+      "discharge_ac_kwh": 17.859572500000002,
+      "curtailment_kwh": 1.2725497738896863e-14,
+      "loss_kwh": 1.9294275000000003,
+      "load_kwh": 503.609,
+      "pv_kwh": 123.375,
+      "last_day_cost": 0.5480477999999986,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.38921157037839293,
+          "median": 0.0002658329904079437,
+          "p95": 0.00029699993901886044
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02031122671905905,
+          "median": 1.354096457362175e-05,
+          "p95": 1.704408787190914e-05
+        },
+        "total": 0.4527790000429377
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.209518596390069e-13,
+      "segments_checked": 1475,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "799551136e14e85e5032008313b664bba48c38f85db8dab673eff2d9ac8e8ac1"
+  },
+  {
+    "case_id": "A290_20130101",
+    "tariff": "flat",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.14682741602882743,
+    "mip_gap": 2.324080107587284e-16,
+    "dual_bound": 30.573074199999994,
+    "primal_objective": 30.5730742,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 4.440892098500626e-16
+  },
+  {
+    "case_id": "A290_20130101",
+    "tariff": "tou",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": 31.551537100554032,
+      "final_soc": 0.0,
+      "initial_soc": 0.0,
+      "objective": 31.551537100554032,
+      "shadow_cost": 37.73580967500007,
+      "shadow_final_soc": 0.0,
+      "regret": -6.184272574446037,
+      "terminal_difference": -6.184272574446037,
+      "efc": 7.689736842105263,
+      "peak_kw": 6.49,
+      "import_kwh": 392.0721475069254,
+      "charge_ac_kwh": 121.4168975069252,
+      "discharge_ac_kwh": 109.57874999999999,
+      "curtailment_kwh": 1.3272802995567545e-14,
+      "loss_kwh": 11.838147506925205,
+      "load_kwh": 503.609,
+      "pv_kwh": 123.375,
+      "last_day_cost": 0.884737631578946,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3876573371235281,
+          "median": 0.00026789598632603884,
+          "p95": 0.0002955913892947137
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.02070163027383387,
+          "median": 1.3874960131943226e-05,
+          "p95": 1.7000013031065464e-05
+        },
+        "total": 0.45304887497331947
+      }
+    },
+    "audit": {
+      "independent_max_residual": 1.209518596390069e-13,
+      "segments_checked": 1475,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "acc09524d4cf0d08379921ec8b37d1513b3e851579c0d0090128c66aaa8329c8"
+  },
+  {
+    "case_id": "A290_20130101",
+    "tariff": "tou",
+    "kind": "hindsight_milp",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "wall_seconds": 0.33070475002750754,
+    "mip_gap": 0.0,
+    "dual_bound": 31.433857728531855,
+    "primal_objective": 31.433857728531855,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 6.217248937900877e-15
+  },
+  {
+    "case_id": "A290_20130101",
+    "tariff": "signed",
+    "kind": "perfect_forecast_mpc",
+    "status": "ok",
+    "nonimplementable": true,
+    "metrics": {
+      "cost": -21.043546106094222,
+      "final_soc": 4.880721052631577,
+      "initial_soc": 0.0,
+      "objective": -21.043546106094222,
+      "shadow_cost": -15.427838803047102,
+      "shadow_final_soc": 4.880721052631577,
+      "regret": -5.61570730304712,
+      "terminal_difference": -5.61570730304712,
+      "efc": 27.855659122807033,
+      "peak_kw": 9.059999999999999,
+      "import_kwh": 511.15459862188385,
+      "charge_ac_kwh": 442.39499722991724,
+      "discharge_ac_kwh": 394.62480000000016,
+      "curtailment_kwh": 83.15040139196674,
+      "loss_kwh": 42.88947617728534,
+      "load_kwh": 503.609,
+      "pv_kwh": 123.375,
+      "last_day_cost": -0.8461487257617719,
+      "fallback_segments": 0,
+      "max_prefix_exposure": null,
+      "timing_seconds": {
+        "supervisor": {
+          "total": 0.3850065798033029,
+          "median": 0.0002619580482132733,
+          "p95": 0.0002865420014131814
+        },
+        "forecast": {
+          "total": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "local_with_independent_shadow": {
+          "total": 0.021139587741345167,
+          "median": 1.4082994312047958e-05,
+          "p95": 1.7762457719072687e-05
+        },
+        "total": 0.45170299999881536
+      }
+    },
+    "audit": {
+      "independent_max_residual": 2.611244553918368e-13,
+      "segments_checked": 1487,
+      "decisions_checked": 1440
+    },
+    "trace_sha256": "969f501ce69850c9e5e0178154367ba61a874bb037dc62a9026239ab7921258c"
+  },
+  {
+    "case_id": "A290_20130101",
+    "tariff": "signed",
+    "kind": "hindsight_milp",
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "wall_seconds": 10.011164167081006,
+    "mip_gap": 4.7512584524069895e-05,
+    "dual_bound": -21.157202619690818,
+    "primal_objective": -21.156197434072023,
+    "nonimplementable": true,
+    "scope": "Full-window known load/PV; no export, grid charging, separate efficiencies, no simultaneous charge/discharge. Solver lower bound is not a causal policy cost.",
+    "max_primal_residual": 3.481659405224491e-13
+  }
+]

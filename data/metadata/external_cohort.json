@@ -1,0 +1,1896 @@
+{
+  "source_screen_sha256": "b79c458ad59987b9107961029c3368ea5368a97c2ac78b55779bd95c03b9ef56",
+  "selected_at_utc": "2026-09-28T15:31:47.649959+00:00",
+  "selection": "all pre-existing whole-site clock/quality candidates; no outcome selection",
+  "households": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14,
+    15,
+    18,
+    19,
+    23,
+    29,
+    30,
+    35,
+    36,
+    37,
+    39,
+    41,
+    42,
+    43,
+    49,
+    51,
+    53,
+    54,
+    56,
+    59,
+    61,
+    64,
+    65,
+    66,
+    68,
+    69,
+    70,
+    71,
+    73,
+    75,
+    77,
+    81,
+    84,
+    87,
+    88,
+    94,
+    95,
+    96,
+    98,
+    99,
+    105,
+    107,
+    108,
+    110,
+    112,
+    118,
+    119,
+    122,
+    123,
+    125,
+    126,
+    127,
+    129,
+    133,
+    137,
+    140,
+    145,
+    146,
+    148,
+    150,
+    151,
+    154,
+    155,
+    156,
+    158,
+    160,
+    161,
+    163,
+    167,
+    168,
+    171,
+    173,
+    174,
+    178,
+    184,
+    186,
+    187,
+    193,
+    194,
+    196,
+    202,
+    204,
+    206,
+    208,
+    209,
+    210,
+    212,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    226,
+    227,
+    232,
+    234,
+    235,
+    239,
+    241,
+    243,
+    245,
+    246,
+    247,
+    248,
+    249,
+    252,
+    259,
+    261,
+    264,
+    270,
+    271,
+    272,
+    274,
+    277,
+    279,
+    281,
+    283,
+    284,
+    285,
+    286,
+    287,
+    289,
+    290,
+    293,
+    294,
+    297,
+    300
+  ],
+  "balanced_two_window_households": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14,
+    15,
+    18,
+    19,
+    23,
+    29,
+    30,
+    35,
+    36,
+    37,
+    39,
+    41,
+    42,
+    43,
+    49,
+    51,
+    53,
+    54,
+    56,
+    59,
+    61,
+    64,
+    65,
+    66,
+    69,
+    70,
+    71,
+    73,
+    75,
+    77,
+    81,
+    84,
+    87,
+    88,
+    94,
+    95,
+    96,
+    98,
+    99,
+    105,
+    107,
+    108,
+    110,
+    112,
+    118,
+    119,
+    122,
+    123,
+    125,
+    126,
+    127,
+    129,
+    133,
+    137,
+    140,
+    145,
+    150,
+    151,
+    154,
+    155,
+    156,
+    158,
+    160,
+    161,
+    163,
+    167,
+    168,
+    173,
+    174,
+    178,
+    184,
+    186,
+    187,
+    193,
+    194,
+    196,
+    202,
+    204,
+    206,
+    208,
+    209,
+    210,
+    212,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    226,
+    227,
+    232,
+    234,
+    235,
+    239,
+    241,
+    243,
+    245,
+    246,
+    247,
+    248,
+    249,
+    252,
+    259,
+    261,
+    264,
+    270,
+    271,
+    274,
+    277,
+    279,
+    281,
+    283,
+    285,
+    286,
+    287,
+    289,
+    290,
+    293,
+    294,
+    297,
+    300
+  ],
+  "cases": [
+    {
+      "customer": 1,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 2,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 3,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 4,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 5,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 6,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 7,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 8,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 9,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 10,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 14,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 15,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 18,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 19,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 23,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 29,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 30,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 35,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 36,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 37,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 39,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 41,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 42,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 43,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 49,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 51,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 53,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 54,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 56,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 59,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 61,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 64,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 65,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 66,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 68,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 69,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 70,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 71,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 73,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 75,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 77,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 81,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 84,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 87,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 88,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 94,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 95,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 96,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 98,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 99,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 105,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 107,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 108,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 110,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 112,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 118,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 119,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 122,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 123,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 125,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 126,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 127,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 129,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 133,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 137,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 140,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 145,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 148,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 150,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 151,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 154,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 155,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 156,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 158,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 160,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 161,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 163,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 167,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 168,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 171,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 173,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 174,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 178,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 184,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 186,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 187,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 193,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 194,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 196,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 202,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 204,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 206,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 208,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 209,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 210,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 212,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 215,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 217,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 219,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 221,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 223,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 225,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 226,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 227,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 232,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 234,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 235,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 239,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 241,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 243,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 245,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 246,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 247,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 248,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 249,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 252,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 259,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 261,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 264,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 270,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 271,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 272,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 274,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 277,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 279,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 281,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 283,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 284,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 285,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 286,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 287,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 289,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 290,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 293,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 294,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 297,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 300,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31"
+    },
+    {
+      "customer": 1,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 3,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 4,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 5,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 6,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 7,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 8,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 9,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 10,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 14,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 15,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 18,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 19,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 23,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 29,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 30,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 35,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 36,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 37,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 39,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 41,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 42,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 43,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 49,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 51,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 53,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 54,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 56,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 59,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 61,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 64,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 65,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 66,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 69,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 70,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 71,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 73,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 75,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 77,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 81,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 84,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 87,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 88,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 94,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 95,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 96,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 98,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 99,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 105,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 107,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 108,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 110,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 112,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 118,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 119,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 122,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 123,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 125,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 126,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 127,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 129,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 133,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 137,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 140,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 145,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 146,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 150,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 151,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 154,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 155,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 156,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 158,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 160,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 161,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 163,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 167,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 168,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 173,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 174,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 178,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 184,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 186,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 187,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 193,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 194,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 196,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 202,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 204,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 206,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 208,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 209,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 210,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 212,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 215,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 217,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 219,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 221,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 223,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 225,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 226,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 227,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 232,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 234,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 235,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 239,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 241,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 243,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 245,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 246,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 247,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 248,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 249,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 252,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 259,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 261,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 264,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 270,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 271,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 274,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 277,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 279,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 281,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 283,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 285,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 286,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 287,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 289,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 290,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 293,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 294,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 297,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    },
+    {
+      "customer": 300,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31"
+    }
+  ],
+  "controller_outcomes_observed": false,
+  "execution_activated": false
+}

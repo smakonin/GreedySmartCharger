@@ -1,0 +1,211 @@
+{
+  "selection": "ten smallest SHA256(decimal customer ID) among the 131 balanced households, before controller outcomes",
+  "households": [
+    286,
+    245,
+    178,
+    51,
+    290,
+    235,
+    39,
+    49,
+    225,
+    125
+  ],
+  "cases": [
+    {
+      "customer": 39,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A039_20120701"
+    },
+    {
+      "customer": 49,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A049_20120701"
+    },
+    {
+      "customer": 51,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A051_20120701"
+    },
+    {
+      "customer": 125,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A125_20120701"
+    },
+    {
+      "customer": 178,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A178_20120701"
+    },
+    {
+      "customer": 225,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A225_20120701"
+    },
+    {
+      "customer": 235,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A235_20120701"
+    },
+    {
+      "customer": 245,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A245_20120701"
+    },
+    {
+      "customer": 286,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A286_20120701"
+    },
+    {
+      "customer": 290,
+      "history_start": "2012-06-03",
+      "test_start": "2012-07-01",
+      "test_end_exclusive": "2012-07-31",
+      "case_id": "A290_20120701"
+    },
+    {
+      "customer": 39,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A039_20130101"
+    },
+    {
+      "customer": 49,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A049_20130101"
+    },
+    {
+      "customer": 51,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A051_20130101"
+    },
+    {
+      "customer": 125,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A125_20130101"
+    },
+    {
+      "customer": 178,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A178_20130101"
+    },
+    {
+      "customer": 225,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A225_20130101"
+    },
+    {
+      "customer": 235,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A235_20130101"
+    },
+    {
+      "customer": 245,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A245_20130101"
+    },
+    {
+      "customer": 286,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A286_20130101"
+    },
+    {
+      "customer": 290,
+      "history_start": "2012-12-04",
+      "test_start": "2013-01-01",
+      "test_end_exclusive": "2013-01-31",
+      "case_id": "A290_20130101"
+    }
+  ],
+  "perfect_forecast_mpc": {
+    "states": 501,
+    "terminal_value": 0.0,
+    "capacity": 15.0,
+    "power": 5.0,
+    "initial_fraction": 0.0,
+    "tariffs": [
+      "flat",
+      "tou",
+      "signed"
+    ],
+    "nonimplementable": true
+  },
+  "hindsight_milp": {
+    "time_limit_seconds": 10.0,
+    "mip_relative_gap": 1e-06,
+    "capacity": 15.0,
+    "power": 5.0,
+    "terminal_value": 0.0,
+    "initial_fraction": 0.0,
+    "tariffs": [
+      "flat",
+      "tou",
+      "signed"
+    ],
+    "nonimplementable": true,
+    "retain_dual_bound_and_primal_gap": true
+  },
+  "runtime": {
+    "config": "primary",
+    "decision_indices": [
+      1257,
+      67,
+      813,
+      1158,
+      920,
+      1275,
+      369,
+      312,
+      510,
+      568,
+      621,
+      1351,
+      1013,
+      409,
+      1086,
+      298,
+      840,
+      1072,
+      427,
+      619
+    ],
+    "mode": "serial, isolated uncached preparation; no concurrent study workers"
+  }
+}
